@@ -1,0 +1,36 @@
+CREATE DATABASE TXPDB
+   USER SYS IDENTIFIED BY oracle
+   USER SYSTEM IDENTIFIED BY oracle
+   LOGFILE GROUP 1 ('C:\TXPDB\C_DRIVE\DB_files\redo01a.log','C:\TXPDB\D_DRIVE\DB_files\redo01b.log','C:\TXPDB\E_DRIVE\DB_files\redo01c.log') SIZE 10M,
+           GROUP 2 ('C:\TXPDB\C_DRIVE\DB_files\redo02a.log','C:\TXPDB\D_DRIVE\DB_files\redo02b.log','C:\TXPDB\E_DRIVE\DB_files\redo02c.log') SIZE 10M,
+           GROUP 3 ('C:\TXPDB\C_DRIVE\DB_files\redo03a.log','C:\TXPDB\D_DRIVE\DB_files\redo03b.log','C:\TXPDB\E_DRIVE\DB_files\redo03c.log') SIZE 10M 
+   MAXINSTANCES 1
+   MAXLOGHISTORY 1
+   MAXLOGFILES 16
+   MAXLOGMEMBERS 3
+   MAXDATAFILES 1024
+   CHARACTER SET AL32UTF8
+   NATIONAL CHARACTER SET AL16UTF16
+   DATAFILE 'C:\TXPDB\C_DRIVE\DB_files\system01.dbf'
+     SIZE 700M  AUTOEXTEND ON NEXT 10240K MAXSIZE 800M
+   SYSAUX DATAFILE 'C:\TXPDB\D_DRIVE\DB_files\sysaux01.dbf'
+     SIZE 500M AUTOEXTEND ON NEXT 10240K MAXSIZE 650M
+   DEFAULT TEMPORARY TABLESPACE tempts1
+      TEMPFILE 'C:\TXPDB\F_DRIVE\DB_files\temp01.dbf'
+      SIZE 20M AUTOEXTEND ON NEXT 640K MAXSIZE 50M
+   UNDO TABLESPACE undotbs1
+      DATAFILE 'C:\TXPDB\F_DRIVE\DB_files\undotbs01.dbf'
+      SIZE 200M AUTOEXTEND ON NEXT 5120K MAXSIZE 400M;
+
+
+@?/rdbms/admin/catalog.sql
+@?/rdbms/admin/catproc.sql
+
+conn system/oracle
+
+@?/sqlplus/admin/pupbld.sql
+
+
+-- EXTENT MANAGEMENT LOCAL
+
+
