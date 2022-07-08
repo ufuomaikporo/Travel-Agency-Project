@@ -1,0 +1,3 @@
+USERID=txp_admin/oracle@travelxp
+CONTROL='C:\DBA\Travel Experts\scripts\Loading_tables\client_adhoc\load_client_adhoc.ctl'
+LOG='C:\DBA\Travel Experts\scripts\Loading_tables\client_adhoc\load_client_adhoc.log'

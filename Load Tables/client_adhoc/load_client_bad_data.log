@@ -1,0 +1,60 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue May 17 16:19:16 2022
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   C:\DBA\Travel Experts\scripts\Loading_tables\client_adhoc\load_client_bad_data.ctl
+Data File:      C:\DBA\Travel Experts\scripts\Loading_tables\client_adhoc\client_data_bad.csv
+  Bad File:     C:\DBA\Travel Experts\scripts\Loading_tables\client_adhoc\client_data_bad.bad
+  Discard File: C:\DBA\Travel Experts\scripts\Loading_tables\client_adhoc\client_data_bad.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 0
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table CLIENT_ADHOC, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CLIENT_ID                           FIRST     *   ,  O(") CHARACTER            
+FIRSTNAME                            NEXT     *   ,  O(") CHARACTER            
+LASTNAME                             NEXT     *   ,  O(") CHARACTER            
+PREF_AGENT                           NEXT     *   ,  O(") CHARACTER            
+EMAIL                                NEXT     *   ,  O(") CHARACTER            
+HOME_PHONE                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+BUSINESS_PHONE                       NEXT     *   ,  O(") CHARACTER            
+BIRTHDATE                            NEXT     *   ,  O(") DATE MM/DD/YYYY      
+ADDRESS                              NEXT     *   ,  O(") CHARACTER            
+CITY                                 NEXT     *   ,  O(") CHARACTER            
+POSTAL_CODE                          NEXT     *   ,  O(") CHARACTER            
+PROVINCE                             NEXT     *   ,  O(") CHARACTER            
+COUNTRY                              NEXT     *   ,  O(") CHARACTER            
+
+
+Table CLIENT_ADHOC:
+  2 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 198144 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             2
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Tue May 17 16:19:16 2022
+Run ended on Tue May 17 16:19:21 2022
+
+Elapsed time was:     00:00:04.62
+CPU time was:         00:00:00.04

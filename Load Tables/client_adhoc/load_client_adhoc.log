@@ -1,0 +1,65 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue May 17 16:18:43 2022
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   C:\DBA\Travel Experts\scripts\Loading_tables\client_adhoc\load_client_adhoc.ctl
+Data File:      C:\DBA\Travel Experts\scripts\Loading_tables\client_adhoc\client_data.csv
+  Bad File:     C:\DBA\Travel Experts\scripts\Loading_tables\client_adhoc\client_data.bad
+  Discard File: C:\DBA\Travel Experts\scripts\Loading_tables\client_adhoc\client_data.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 300
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table CLIENT_ADHOC, loaded from every logical record.
+Insert option in effect for this table: REPLACE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CLIENT_ID                           FIRST     *   ,  O(") CHARACTER            
+FIRSTNAME                            NEXT     *   ,  O(") CHARACTER            
+LASTNAME                             NEXT     *   ,  O(") CHARACTER            
+PREF_AGENT                           NEXT     *   ,  O(") CHARACTER            
+EMAIL                                NEXT     *   ,  O(") CHARACTER            
+HOME_PHONE                           NEXT     *   ,  O(") CHARACTER            
+BUSINESS_PHONE                       NEXT     *   ,  O(") CHARACTER            
+BIRTHDATE                            NEXT     *   ,  O(") DATE MM/DD/YYYY      
+ADDRESS                              NEXT     *   ,  O(") CHARACTER            
+CITY                                 NEXT     *   ,  O(") CHARACTER            
+POSTAL_CODE                          NEXT     *   ,  O(") CHARACTER            
+PROVINCE                             NEXT     *   ,  O(") CHARACTER            
+COUNTRY                              NEXT     *   ,  O(") CHARACTER            
+
+Record 236: Rejected - Error on table CLIENT_ADHOC, column HOME_PHONE.
+ORA-12899: value too large for column "TXP_ADMIN"."CLIENT_ADHOC"."HOME_PHONE" (actual: 11, maximum: 10)
+
+Record 247: Rejected - Error on table CLIENT_ADHOC, column HOME_PHONE.
+ORA-12899: value too large for column "TXP_ADMIN"."CLIENT_ADHOC"."HOME_PHONE" (actual: 11, maximum: 10)
+
+
+Table CLIENT_ADHOC:
+  268 Rows successfully loaded.
+  2 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 214656 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:           270
+Total logical records rejected:         2
+Total logical records discarded:        0
+
+Run began on Tue May 17 16:18:43 2022
+Run ended on Tue May 17 16:18:48 2022
+
+Elapsed time was:     00:00:05.20
+CPU time was:         00:00:00.09

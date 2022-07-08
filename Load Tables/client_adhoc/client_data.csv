@@ -1,0 +1,271 @@
+﻿Cust id,First Name,Last Name,Agent,Email,Home Phone,Business Phone,Birth date,Address,City,Postal Code,Province,Country
+102,Fred,Crocitto,DR, ,4032796411,4032449653,1/22/1970,"101-09 120th St., NE",Calgary,T2J 6P3,AB,Canada
+103,J.,Landry,JL, ,4032794511,4032844477,,"7435 Boulevard East #4, NE",Calgary,T2J 6B6,AB,Canada
+104,Laetia,Enison,JM, ,4032791223,4032557865,,"144-61 87th Ave, NE",Calgary,T2J 6B6,AB,Canada
+105,Angel,Moskowitz,JL,amoskowitz@home.com,4032794228,4036409874,,"320 John St., NE",Calgary,T2J 7E3,AB,Canada
+106,Judith,Olvsade,DR,jolvsade@aol.com,4032795652,4036861598,6/22/1955,"29 Elmwood Ave.,",Calgary,T2Z 3M9,AB,Canada
+107,Catherine,Mierzwa,JL,cmierzwa@msn.com,4032796878,4036404563,,"22-70 41st St.,NW",Calgary,T2Z 2Z9,AB,Canada
+108,Judy,Sethi,BD,judysehti@home.com,4032795111,4036204789,,"63 Stratton Hall, SW",Calgary,T1Y 6N4,AB,Canada
+109,Larry,Walter,BP,lwalter@aol.com,4032793254,4032845588,,"38 Bay 26th ST. #2A, NE",Calgary,T2J 6B6,AB,Canada
+110,Maria,Martin,BD,mmartin@nucleos.com,4032693678,4035907411,,"1674 Woodbine St., NE",Calgary,T2J 6B6,AB,Canada
+111,Peggy,Noviello,JL,pnoviello@istar.com,4032691999,4036861547,,"155 Union Ave #211, NE",Calgary,T2J 7E3,AB,Canada
+112,Thomas,Thomas,JM,tthomas@aol.com,4032696541,4032951596,,"501 W ElmSt.,SE",Calgary,T2Z 3M9,AB,Canada
+113,Anil,Kulina,JL, ,4032691854,4032843214,1/25/1999,"43-44 Kissena Blvd. #1,NW",Calgary,T2Z 2Z9,AB,Canada
+114,Winsome,Laporte,BD, ,4032691125,4032844565,11/25/1945,"268 E.3rd St, SW",Calgary,T1Y 6N4,AB,Canada
+117,Nancy,Kuehn,BD, ,4032693965,4032843211,,"44-255 9th St., SW",Calgary,T1Y 6N5,AB,Canada
+118,Hiedi,Lopez,JM,hlopez@aol.com,4032699856,4035901587,2/25/1969,"168 Rowayton Ave, NW",Calgary,T3A 4ZG,AB,Canada
+119,Mardig,Abdou,JD, ,4032691429,4032251952,,"160-04 32nd Ave., SW",Calgary,T2P 2G7,AB,Canada
+120,Ralph,Alexander,DR, ,4032691634,4032256547,,"2054 73rd St, SW",Calgary,T2P 2G7,AB,Canada
+121,Sean,Pineda,JM,spineda@hotmail.com,4032691954,4036864444,5/27/1971,"3 Salem Rd., NW",Calgary,T2K 3E3,AB,Canada
+122,Julita,Lippen,JD,jlippen@cadvision.co,4032551956,4035901478,,"51-76 VanKleeck St., NW",Calgary,T2K 6C5,AB,Canada
+123,Pierre,Radicola,JL,pradicola@home.com,4032551677,4036867536,,"322 Atkins Ave., SE",Calgary,T3G 2C6,AB,Canada
+124,Daniel,Wicelinski,JM,dwicelinski@home.com,4032801987,4032847859,4/27/1969,"27 Brookdale Gdns., NE",Calgary,T2V 2K9,AB,Canada
+127,Gary,Aung,JM, ,4032807858,4037501587,1/17/1959,"135-32 Louis Blvd, NE",Calgary,T2V 2K5,AB,Canada
+128,Jeff,Runyan,BD,jrunyan@aol.com,4032809635,4036201122,,"109-15 Queens Blvd., NE",Calgary,T2V 2K6,AB,Canada
+129,Omaira,Grant,DR, ,4032435683,4032703589,1/7/1955,"1065 Vermont St. 7F., NE",Calgary,T2V 2K7,AB,Canada
+130,Lula,Oates,JM,loates@aol.com,4032439653,4036861587,,"11A Emory St., NE",Calgary,T3E 3Z4,AB,Canada
+133,James,Reed,JM,jreed@aol.com,4032432358,4037201155,,"109-621 96th St, NE",Calgary,T3E 4A1,AB,Canada
+134,Angela,Torres,JM,atorres@telusplanet.,4032439635,4032952547,,"50 92nd St #4L, NE",Calgary,T2V 2J7,AB,Canada
+135,Michelle,Masser,DR,mmasser@aol.com,4032441586,4035908522,,"379 Ovington Ave, NE",Calgary,T2J 2S9,AB,Canada
+136,Hazel,Lasseter,JL, ,4032449635,4032845412,11/15/1961,"9720 57th Ave #10G, NE",Calgary,T3E 5G1,AB,Canada
+137,James,Miller,JM,jmiller@aol.com,4032441464,4036405478,3/19/1962,"9830 57th Ave #3E, NE",Calgary,T3E 5C6,AB,Canada
+138,John,Smith,BD,johnSmith@hotmail.co,4032449653,4032837896,,"45 Plaza St. West #2D, NE",Calgary,T3E 5C7,AB,Canada
+139,Angelo,Garshman,JD, ,4032259966,4032696541,8/2/1948,"82 Western Ave., NE",Calgary,T3E 5C8,AB,Canada
+140,Derrick,Baltazar,BP, ,4032255231,4037502547,,"9111 Church Ave. #3N, NE",Calgary,T3E 5C9,AB,Canada
+141,Robert,Boyd,JM, ,4032255647,4037509512,,"96-04 57th Ave #12A, NE",Calgary,T3E 5C5,AB,Canada
+142,Monica,Waldman,JM,mwaldman@aol.com,4032255629,4032844566,,"257 Depot Rd., NE",Calgary,T2J 6P3,AB,Canada
+143,Gerard,Biers,JC, ,4032251952,4037506578,1/30/1945,"205 19th St., NE",Calgary,T2J 6B6,AB,Canada
+144,David,Essner,DR, ,4032256547,4032558877,,"96 Easton Ave., NE",Calgary,T2J 6B6,AB,Canada
+145,Paul,Lefkowitz,JC,plefkowitz@aol.com,4032256538,4032846653,,"2 Beddington Rd, NE",Calgary,T2J 7E3,AB,Canada
+146,Joseph,German,BD, ,4032251932,4032701155,9/10/1957,"19 75th St., SW",Calgary,T2Z 3M9,AB,Canada
+147,Judy,Cahouet,JW, ,4032251654,4032306699,5/19/1963,"6406 10thAve, SW",Calgary,T2Z 2Z9,AB,Canada
+148,D.,Orent,BD,dorent@telusplanet.n,4032259685,4036862569,,"117 Knapp Ave., SW",Calgary,T1Y 6N4,AB,Canada
+149,Judith,Prochaska,JM,jprochaska@aol.com,4032462658,4036865897,6/30/1975,"49 Martindale Rd, SW",Calgary,T1Y 6N5,AB,Canada
+150,Regina,Gates,BD, ,4032467894,4032699856,,"29 Cygnet Dr., NW",Calgary,T3A 4ZG,AB,Canada
+151,Arlyne,Sheppard,JM,asheppard@home.com,4032464569,4036205987,7/4/1945,"3354 28thSt#2C, SW",Calgary,T2P 2G7,AB,Canada
+152,Thomas,Edwards,JC, ,4032461236,4032553322,10/3/1968,"501 W. Elm, SW",Calgary,T2P 2G7,AB,Canada
+153,Mrudula,Philpotts,BD,mphilpotts@msn.com,4032462358,4036863698,,"86-60 Ave. #6L, NW",Calgary,T2K 3E3,AB,Canada
+154,Dawn,Dennis,BD, ,4032466954,4032551478,7/20/1957,"26 Indian Field Rd., NW",Calgary,T2K 6C5,AB,Canada
+156,Scott,Grant,JC, ,4032783598,4032704589,11/14/1968,"840 214th Ave., SE",Calgary,T3G 2C6,AB,Canada
+157,Shirley,Jameson,BD, ,4032783652,4032954444,,"101 Daniel St., NE",Calgary,T2V 2K9,AB,Canada
+158,Roy,Limate,JL,rlimate@msn.com,4032789632,4032849955,12/4/1971,"5 Horizon Rd., NE",Calgary,T2V 2K5,AB,Canada
+159,Thomas,Edwards,JC, ,4032785874,4032555544,1/16/1980,"45 Maplewood Ave., NE",Calgary,T2V 2K6,AB,Canada
+160,John T.,Beitler,JC, ,4032831258,,,"100 Plaza Dr, NE",Calgary,T2V 2K7,AB,Canada
+161,Eilene,Grant,JD, ,4032839635,4032705533,2/2/1976,"245  Henry St. #2I, NE",Calgary,T2J 6P3,AB,Canada
+162,Genny,Andrew,BD, ,4032837896,4032263366,4/20/1974,"5 Sylvan Ln., NE",Calgary,T2J 6B6,AB,Canada
+163,Nicole,Gillen,DR, ,4032894561,4032701547,3/16/1969,"4301 N Ocean #103, NE",Calgary,T2J 6B6,AB,Canada
+164,Sylvia,Perrin,DR,sperrin@aol.com,4032892365,4036863587,,"716a Union St., NE",Calgary,T2J 7E3,AB,Canada
+165,Peter,Daly,JW, ,4032892587,4032466954,7/2/1969,"1219 Memorial Rd, NE",Calgary,T2Z 3M9,AB,Canada
+166,May,Jodoin,BD, ,4032092368,4032957777,,"162- 178th Ave, SE",Calgary,T2Z 2Z9,AB,Canada
+167,Jim,Joas,JL, ,4032097531,4032956666,,"53-33 192nd St., SW",Calgary,T1Y 6N4,AB,Canada
+168,Sally,Naso,JL,snaso@home.com,4032093571,4036861475,,"812 79th St., SW",Calgary,T1Y 6N5,AB,Canada
+169,Frantz,McLean,JL,fmclean@istar.com,4032091596,4035909988,,"23-08 Newtown Ave., NW",Calgary,T3A 4ZG,AB,Canada
+170,P.,Balterzar,JC, ,4032099512,4037502548,2/23/1956,"30 Carriage Rd., SW",Calgary,T2P 2G7,AB,Canada
+171,Denise,Brownstein,JL, ,4032097536,4032304477,6/11/1962,"104-36 196th St., SW",Calgary,T2P 2G7,AB,Canada
+172,Maria,Arias,BS, ,4032091598,4037501547,2/10/1946,"Box 216, NW",Calgary,T2K 3E3,AB,Canada
+173,Oscar,McGill,BD,omcgill@msn.com,4032094568,4035909658,2/2/1967,"578 E 40th ST., NW",Calgary,T2K 6C5,AB,Canada
+174,Michael,Brown,BS, ,4032091587,4032303658,,"265 Hawthorne St #2D, SE",Calgary,T3G 2C6,AB,Canada
+175,Debra,Boyce,BP, ,4032092587,4037507536,,"294 East 98 St., NE",Calgary,T2V 2K9,AB,Canada
+176,Beth,Satterfield,JM,bsatterfiled@msn.com,4032958563,4036202233,,"140 Amity St, NE",Calgary,T2V 2K5,AB,Canada
+178,Ricardo,Kurtz,BD, ,4032957777,4032843325,,"31-21 30th St., NE",Calgary,T2V 2K6,AB,Canada
+179,Simon,Ramesh,BD,sramesh@nucleos.com,4032958887,4036869966,,"92-14 51st Ave, NE",Calgary,T2V 2K7,AB,Canada
+180,E.A.,Torres,BS,eatorres@telusplanet,4032959999,4032952578,10/3/1979,"1495 Union, NE",Calgary,T2J 2Z5,AB,Canada
+181,Anthony,Bullock,JL, ,4032954444,4032305533,5/18/1980,"53 Pauklie St., NE",Calgary,T2J 2L7,AB,Canada
+182,Jeffrey,Delbrun,BS, ,4032956666,4032551457,,"PO Box 1091, NE",Calgary,T2J 3T7,AB,Canada
+184,Salewa,Zuckerberg,JM,szuckerberg@aol.com,4032951112,4035901587,,"1614 64th St., NE",Calgary,T2J 2J2,AB,Canada
+185,Dennis,Mehta,BD,dmehta@hotmail.com,4032952222,4036401236,,"371 Monmouth St., NE",Calgary,T3E 5Y6,AB,Canada
+186,Christine,Sheppard,JM,csheppard@aol.com,4032953333,4036207788,4/3/1960,"16 Seymour St., SW",Calgary,T2Y 1S3,AB,Canada
+187,O.,Garnes,JD, ,4032958888,4032693965,2/26/1972,"125 Great Hills Rd,",Calgary,T2Z 1R7,AB,Canada
+188,Phil,Gilloon,BD, ,4036864444,4032702587,12/3/1963,"4244 Morestown Ct. E, SW",Calgary,T2Z 1V3,AB,Canada
+189,Deborah,Reyes,JL,dreyes@msn.com,4036861596,4037201547,,"91 S 10thSt, NE",Calgary,T2V 1V9,AB,Canada
+190,Alan,Affinito,JL, ,4036867536,4032255647,8/1/1979,"735 W. Crescent Ave., SE",Calgary,T2X 1G2,AB,Canada
+191,Steven,M. Orent,JM,smorent@hotmail.com,4036861475,4035902588,,"223 Crabapple Rd., SE",Calgary,T2X 1H4,AB,Canada
+192,Frank,Viotty,BD,fviotty@aol.com,4036863214,4032844565,,"299 Ocean Ave., NE",Calgary,T2J 7E3,AB,Canada
+193,Al,Jamerncy,DR, ,4036862587,4032953589,10/11/1940,16 Eldor Ave.,Calgary,T2Z 3M9,AB,Canada
+194,Verona,Grant,DR, ,4036861587,4032783598,,17 Gould St.,Calgary,T2Z 2Z9,AB,Canada
+195,Regina,Bose,JC, ,4036861475,4037507531,,"29 Cygnet Dr., SW",Calgary,T1Y 6N4,AB,Canada
+196,Victor,Meshaj,BD,vmeshaj@nucleos.com,4036866325,4036402478,,"22 Coach Lame Lane, SW",Calgary,T1Y 6N5,AB,Canada
+197,J.,Dalvi,DR, ,4036861587,4032462658,,"19 Valley Ridge Way, NW",Calgary,T3A 4ZG,AB,Canada
+198,Edwin,Allende,DR, ,4036861478,4032259685,,"276 Fillo St., SW",Calgary,T2P 2G7,AB,Canada
+199,J.,Segall,BD,jsegall@home.com,4036863698,4036204455,,"53-35 192 St., SW",Calgary,T2P 2G7,AB,Canada
+200,Gene,Bresser,BS, ,4036861478,,,"567 Varsity Way, NW",Calgary,T2K 3E3,AB,Canada
+201,Michael,Lefbowitz,JD,mlefbowitz@aol.com,4036861598,4032846544,6/5/1960,"1438 E 100th St, NW",Calgary,T2K 6C5,AB,Canada
+202,Mary,Axch,BP, ,4035901478,4037502368,2/5/1953,"144-704 1st Ave.#4T, SE",Calgary,T3G 2C6,AB,Canada
+203,Angel,Cook,JM, ,4035902587,4032441586,,"320J ohn St, NE",Calgary,T2V 2K9,AB,Canada
+204,Arun,Griffen,BD, ,4035909658,4032785874,,"Box 86, NE",Calgary,T2V 2K5,AB,Canada
+205,Alfred,Hutheesing,JL, ,4035901587,4032795111,,"43-11 National St, NE",Calgary,T2V 2K6,AB,Canada
+206,Freedon,annunziato,BD, ,4035901477,4032264563,10/8/1959,"45 Adelphi St. #2W, NE",Calgary,T2V 2K7,AB,Canada
+207,Bernadette,Montanez,JM,bmontanez@telusplane,4035902588,4036407896,,"7 St.Lukes Place #202, NE",Calgary,T2J 2Z5,AB,Canada
+208,A.,Tucker,JM,atucker@aol.com,4035903699,4032953333,,"117 Olcott Way, NE",Calgary,T2J 2L7,AB,Canada
+209,Lloyd,Kellam,JL, ,4035909633,4032958888,9/25/1968,"156-02 Liberty Ave., NE",Calgary,T2J 6B6,AB,Canada
+210,David,Thares,JM,dthares@msn.com,4035908522,4032951245,8/5/1978,"20 Charles Rd., NE",Calgary,T2J 6B6,AB,Canada
+211,Jenny,Goldsmith,JD, ,4035907411,4032703355,,"250 N.Van Dien Ave., NE",Calgary,T2J 7E3,AB,Canada
+212,Barbara,Robichaud,JM, ,4035691233,4037205599,6/15/1979,"132 S Mountain View Dr,NW",Calgary,T2Z 3M9,AB,Canada
+214,Yvonne,Williams,JM,ywilliams@home.com,4035694566,4032847899,2/15/1976,"80-204th Ave. #A3, SW",Calgary,T2Z 2Z9,AB,Canada
+215,Reynaldo,Chatman,BD, ,4035694565,4032435683,,"9925 42nd Ave. #3B, SW",Calgary,T1Y 6N4,AB,Canada
+216,Madhav,Dusenberry,JL, ,4035697899,4032552547,,"6331 Durham Ave, SW",Calgary,T1Y 6N5,AB,Canada
+217,Jeffrey,Citron,JM, ,4035699877,4032441464,,"PO Box 1091, NW",Calgary,T3A 4ZG,AB,Canada
+218,Eric,Da Silva,DR, ,4035696544,4032462358,,"90-36 53rd Avenue, SW",Calgary,T2P 2G7,AB,Canada
+220,Robert,Segall,BD,rsegall@telusplanet.,4035693211,4036204578,,"36 Brookdale Dr., SW",Calgary,T2P 2G7,AB,Canada
+221,Sheradha,Malone,BD,smalone@cadvision.co,4035691144,4035904578,,"91-412 3rd Ave.1stFl, NW",Calgary,T2K 3E3,AB,Canada
+223,Frank,Pace,BD,frankpace@msn.com,4035694477,4036862587,,"13 Burlington Dr., NW",Calgary,T2K 6C5,AB,Canada
+224,M.,Diokno,BD, ,4035692255,4032551956,2/8/1959,"44-206 4th St #6L, SE",Calgary,T3G 2C6,AB,Canada
+225,Edgar,Moffat,JL,emoffat@hotmail.com,4035695588,4036407864,8/13/1960,"172 Lincoln St, NE",Calgary,T2V 2K9,AB,Canada
+227,Bessie,Heedles,DR, ,4032263366,4032794511,2/18/1981,"932 Carnegie Ave., NE",Calgary,T2V 2K5,AB,Canada
+228,Mohamed,Valentine,JL,mvalentine@msn.com,4032266699,4032843211,4/8/1963,"35-33 83rd St. #D12, NE",Calgary,T2V 2K6,AB,Canada
+229,Adrienne,Lopez,JM,alopez@cadvision.com,4032269966,4035902587,7/8/1989,"755 Anderson Ave. #3-2, NE",Calgary,T2V 2K7,AB,Canada
+230,George,Kocka,BD, ,4032266633,4032841233,12/8/1979,"24 Beaufield St., NE",Calgary,T2J 6P3,AB,Canada
+232,Janet,Jung,JD, ,4032268855,4032958563,,"118-18 Union RD., NE",Calgary,T2J 6B6,AB,Canada
+233,Kathleen,Mulroy,BD,kmulroy@home.com,4032265522,4036861144,9/8/2000,"770 Anderson Ave., NE",Calgary,T2J 6B6,AB,Canada
+234,Joel,Brendler,BS, ,4032267744,4032251654,,"111 Village Hill Dr., NE",Calgary,T2J 7E3,AB,Canada
+235,Michael,Carcia,JW, ,4032264411,4032307755,,"250 Senator St,",Calgary,T2Z 1N9,AB,Canada
+236,Gerry,Tripp,JM,gtripp@telusplanet.n,4032391144,4032953258,,"35-158 4th St., NE",Calgary,T2E 7R4,AB,Canada
+237,Rommel,Frost,JD, ,4032394477,4032691429,6/20/1969,"P.O. Box 6294, NW",Calgary,T2A 2S9,AB,Canada
+238,Roger,Snow,BD,rogerSnow@aol.com,4032392255,4032892365,,"1620 Cambridge Rd., SW",Calgary,T2H 3J9,AB,Canada
+240,Z.A.,Scrittorale,JM,zascrittorale@msn.co,4032395588,4036203578,6/11/1962,"27 Arrowhead Wy., NE",Calgary,T2J 4N4,AB,Canada
+241,Joseph,Yourish,JC,jyourish@aol.com,4032393366,4035901477,,"185 St. Marks Ave., SW",Calgary,T3C 2V6,AB,Canada
+242,Daniel,Ordes,DR,dordes@msn.com,4032396699,4036862478,2/11/1993,"117 Knapp Ave., SW",Calgary,T3C 2V7,AB,Canada
+243,Bharat,Roberts,BD,broberts@aol.com,4032399955,4037203657,,"175 Oakland Ave., SW",Calgary,T3C 2W6,AB,Canada
+244,Sarah,Wilson,BP,swilson@aol.com,4032395511,4032849877,,"457 77th St., SW",Calgary,T3C 2R8,AB,Canada
+245,Irv,Dalvi,DR, ,4032397755,4032464569,,"1504 Harmon Cove Tower, SW",Calgary,T3H 3C2,AB,Canada
+246,Meryl,Owens,JM,mowens@home.com,4032395533,4036862578,,"94 Sycamore Rd., SW",Calgary,T2W 5V1,AB,Canada
+247,Frank,Bunnell,JW, ,4032393355,4032305577,7/22/1970,"43 Lindstrom Rd., SW",Calgary,T2W 4H5,AB,Canada
+248,Tamara,Zapulla,JC,tzapulla@aol.com,4032395577,4035901478,,"818 E.Ridgewood Ave., NE",Calgary,T3E 5C1,AB,Canada
+250,Evan,Fielding,DR, ,4036401155,4032559988,,"194-07 58th Ave., NW",Calgary,T3K 3Y9,AB,Canada
+251,Catherine,Frangopoulos,DR, ,4036405599,4032691125,,"2270 41st Street, SE",Calgary,T2X 3X7,AB,Canada
+252,Nana,Barogh,JC, ,4036407896,4037502587,6/16/1955,"4131 Hampton St., NW",Calgary,T2N 3X3,AB,Canada
+253,Walter,Boremmann,BP, ,4036404563,4037506633,,"88 Old Fields Rd, NE",Calgary,T3J 3L2,AB,Canada
+254,Melvina,Chamnonkool,BS, ,4036401236,4032432358,,"117-361 68th St., NW",Calgary,T2M 8K9,AB,Canada
+256,Lorrane,Velasco,JW,lvelasco@msn.com,4036404569,4032844455,,"200 Winston Dr.#2212, NW",Calgary,T2M 4P4,AB,Canada
+257,Suzanne M.,Abid,JL, ,4036409874,4032255629,,"279 Hempstead Ave., NW",Calgary,T2M 3E2,AB,Canada
+258,Suzanna,Velasco,JW,svelasco@aol.com,4036406541,4032844458,,"1033 Springfield Ave, SW",Calgary,T2W 4E5,AB,Canada
+259,George,Merriman,DR,gmerriman@msn.com,4032811456,4036402457,11/19/1949,"49 Adair Ct, NW",Calgary,T2M 4S2,AB,Canada
+260,Jean,Griffith,JD, ,4032814789,4032789632,6/23/1945,"1219 Mooney Pl., SW",Calgary,T2P 3L6,AB,Canada
+261,Vinnie,Moon,DR,vmoon@home.com,4032811122,4036409657,,"32-673 5th St., SW",Calgary,T2P 4R8,AB,Canada
+262,Donna,Walston,JM,dwalston@msn.com,4032812233,4032845412,3/25/1969,"236 Washington Ave., SW",Calgary,T3C 2V7,AB,Canada
+263,Radharam,King,JD, ,4032814455,4032841144,,"2416 38 Ave. #5G, SW",Calgary,T3C 2W6,AB,Canada
+264,Lorraine,Harty,JL, ,4032815566,4032794228,,"17 Beach St., SW",Calgary,T3C 2R8,AB,Canada
+265,Adele,Rothstein,JM,arothstein@istar.com,4032817788,4032809635,5/10/1971,"Box 6028, SW",Calgary,T3H 3C2,AB,Canada
+266,Kate,Page,DR,kpage@telusplanet.ne,4032818899,4036863214,,"130 8th Ave. #499, SW",Calgary,T2W 5V1,AB,Canada
+267,Julius,Kwong,DR, ,4032559988,4032844455,,"3001 Edwin Ave. 2B, SW",Calgary,T2W 4H5,AB,Canada
+268,Ronald,Tangaribuan,JM, ,4032558877,4032951112,4/7/1969,"140 Hepburn Rd #9J, NE",Calgary,T3E 5C1,AB,Canada
+269,Sharon,Thompson,JM,sthompson@home.com,4032556655,4032952145,9/17/1959,"390 Parkside Ave. #A4, NW",Calgary,T3K 3Y9,AB,Canada
+270,Charles,Caro,BS, ,4032555544,4032309955,,"6 Buena Vista St., SE",Calgary,T2X 3X7,AB,Canada
+271,Jose,Benitez,BP, ,4032553322,4037504568,1/30/1955,"69-68 St., NW",Calgary,T2N 3X3,AB,Canada
+272,Kevin,Porch,BD,kporch@msn.com,4032552211,4036865588,,"102 Maple St., NE",Calgary,T3J 3L2,AB,Canada
+273,Hedy,Naso,BD,hnaso@nucleos.com,4032551599,4036861478,,"1072 Abbott Blvd., NW",Calgary,T2M 8K9,AB,Canada
+274,Brian,Naso,BD, ,4032551599,4036861478,,"1072 Abbott Blvd., NW",Calgary,T2M 8K9,AB,Canada
+275,George,Ross,DR,gross@msn.com,4037201155,4032807858,12/25/1961,"49 Adair Ct., NW",Calgary,T2M 3E2,AB,Canada
+276,Florence,Valamas,JD,fvalamas@msn.com,4037205599,4032842255,3/29/1962,"88-2086 Street, SW",Calgary,T2W 4E5,AB,Canada
+277,Evelyn,Liggons,JD,eliggons@home.com,4037207755,4032849877,,"67-19 49th Ave, NW",Calgary,T2M 4S2,AB,Canada
+278,Thomas E.,La Blank,JD, ,4032705533,4032844458,9/2/1948,"49 Raleigh Rd, SW",Calgary,T2P 3L6,AB,Canada
+279,George,Korka,DR, ,4032703355,4032841236,,"3 Aster Pl., SW",Calgary,T2P 4R8,AB,Canada
+280,Bill,Engongoro,JM, ,4032701155,4032557854,,"37-55 77th St #5G, NW",Calgary,T2K 6C5,AB,Canada
+281,Virginia,Ocampo,BD,vocampo@nucleos.com,4035699955,4036861596,,"68 First Ave., SE",Calgary,T3G 2C6,AB,Canada
+282,Jonathan,Jaele,BD, ,4035699956,4032801987,6/30/1945,"1543 Nostrant Ave. #3C, NE",Calgary,T2V 2K9,AB,Canada
+283,Benita,Perkins,DR,bperkins@aol.com,4035696653,4036863366,,"11 Mirrielees Circle, NE",Calgary,T2V 2K5,AB,Canada
+284,Salewa,Lindeman,BD,slindeman@aol.com,4035693325,4035901477,,"16146 4th St., NE",Calgary,T2V 2K6,AB,Canada
+285,Paul,Sikinger,JM,psikinger@aol.com,4035691154,4036207896,9/16/1957,"38 Beaumont Pl, NE",Calgary,T2V 2K7,AB,Canada
+286,Robin,Kelly,BD, ,4035694458,4032959999,7/19/1963,"200 Winston Dr. #2212, NE",Calgary,T3E 3Z4,AB,Canada
+288,Rosemary,Ellman,JC, ,4035697859,4032556655,,"143 Bowers St., NE",Calgary,T3E 4A1,AB,Canada
+289,Shirley,Murray,JM,smurray@home.com,4035694455,4036861254,7/5/1975,"PO Box 143, NE",Calgary,T2V 2J7,AB,Canada
+290,Brian,Robles,BD,brobles@msn.com,4032267894,4037207755,,"45-08 11th St., NE",Calgary,T2J 2S9,AB,Canada
+291,D.,Dewitt,BD, ,4032264563,4032551677,11/13/1945,"4 Rockledge Rd, NE",Calgary,T3E 5G1,AB,Canada
+292,Austin V.,Cadet,JW, ,4032262255,4032305588,10/16/1968,"360 Sunset Rd., NE",Calgary,T3E 5C6,AB,Canada
+293,Frank,M. Orent,JM,fmorent@hotmail.com,4032265588,4035903699,,"37-21 80th St. #6J, NE",Calgary,T3E 5C7,AB,Canada
+294,Yvonne,Winnicki,JM, ,4032264477,4032849955,7/29/1957,"8020 4thAve., NE",Calgary,T3E 5C8,AB,Canada
+296,Mike,Madej,DR,mmadej@telusplanet.n,4032261144,4035904577,5/14/1968,"214 Cottage St., NE",Calgary,T3E 5C9,AB,Canada
+298,Paula,Valentine,DR,pvalentine@aol.com,4032269966,4032843214,,"17 Orchard Farm, NE",Calgary,T3E 5C5,AB,Canada
+299,Brian,Saluja,DR,bsaluja@home.com,4032266633,4036201456,12/19/1971,"604 McDough St., NE",Calgary,T2J 6P3,AB,Canada
+300,Frances,Lawson,BD, ,4032393322,4032845588,4/15/1980,"70 Nevada Ave., NE",Calgary,T2J 6B6,AB,Canada
+301,Barry,Dunkon,JL, ,4032391155,4032552211,,"1 Marine Pl, NE",Calgary,T2J 6B6,AB,Canada
+302,Rita,Archor,BS, ,4032399955,4037501547,2/8/1976,"30 Lakeview Dr., NE",Calgary,T2J 7E3,AB,Canada
+303,George,Milano,BD,gmilano@aol.com,4032397745,4036404569,5/20/1974,"#1 Bayclub Dr.,NW",Calgary,T2Z 3M9,AB,Canada
+304,Kardik,Guarino,BD, ,4032391111,4032791223,9/11/1969,"414 148th St #3K, NE",Calgary,T2Z 2Z9,AB,Canada
+305,Preston,Larcia,JL, ,4032392222,4032844566,,"131-572 30th St., SW",Calgary,T1Y 6N4,AB,Canada
+306,Norman,Callender,JW, ,4032392574,4032307745,7/6/1969,"6635 108th St., SW",Calgary,T1Y 6N5,AB,Canada
+307,Salondra,Galik,JW, ,4032393658,4032691634,,"114-1913 1st St., NW",Calgary,T3A 4ZG,AB,Canada
+309,Carlos,Airall,JD, ,4032391254,4032256538,,"250 Sylvan Dr, SW",Calgary,T2P 2G7,AB,Canada
+310,Joseph,Jimenes,JD, ,4032391547,4032956587,,"221-07 Braddock Ave., SW",Calgary,T2P 2G7,AB,Canada
+311,Henry,Masser,JM,hmasser@hotmail.com,4032392587,4035908855,,"5502 Tilden Ave., NW",Calgary,T2K 3E3,AB,Canada
+312,Maria,Allende,DR, ,4032392657,4032259966,4/23/1956,"2885 Bayview Ave., NW",Calgary,T2K 6C5,AB,Canada
+313,John,Velie,BD,jvelie@aol.com,4036405645,4032844477,8/19/1962,"135-242 33rd St., SE",Calgary,T3G 2C6,AB,Canada
+314,Bernice,Dermody,JM, ,4036405487,4032551599,1/16/1946,"209 Carlton Ave., NE",Calgary,T2V 2K9,AB,Canada
+315,Daniel,McHowell,JM,dmchowell@cadvision.,4036405478,4035909874,8/19/1967,"35 Sommerville St, NE",Calgary,T2V 2K5,AB,Canada
+317,Cathy,Austin,JM, ,4036402478,4037501596,,"64-18 Madison St., NE",Calgary,T2V 2K6,AB,Canada
+319,George,Eakheit,JL, ,4036405875,4032553254,,"40 Ramapo Rd, NE",Calgary,T2V 2K7,AB,Canada
+320,Mark,Miller,JM,mkmiller@aol.com,4036402457,4036405487,,"40-44 70th St., NE",Calgary,T2J 6P3,AB,Canada
+321,Jeannette,Smagler,BD,jsmagler@aol.com,4036409657,4032831258,,"420 Greene Ave., NE",Calgary,T2J 6B6,AB,Canada
+322,Oscar,Archer,BS, ,4036407864,4037501144,,"578 E 40th ST., NE",Calgary,T2J 6B6,AB,Canada
+323,Gilbert,Ginestra,BD, ,4032811257,,10/13/1979,"555 North Ave, NE",Calgary,T2J 7E3,AB,Canada
+324,Price,Marten,JM,pmarten@msn.com,4032817896,,5/8/1980,"328 Fenimore St. #2,SE",Calgary,T2Z 3M9,AB,Canada
+325,Pat,Puetrino,BD,ppuetrino@hotmail.co,4032814587,,,"Bldg #11, Rockyridge blvd # 200, NW",Calgary,T2Z 2Z9,AB,Canada
+326,Piotr,Padel,DR,piotrpadel@hotmail.c,4032813578,4036862587,,"14 Spring Grove, SW",Calgary,T1Y 6N4,AB,Canada
+328,Lynwood A.,Thorton,DR,lthorton@nucleos.com,4032814578,4032952222,,"68 Durand Pl, SW",Calgary,T1Y 6N5,AB,Canada
+330,John,Tabs,JM,jtabs@home.com,4032812357,4032894561,4/12/1960,"882 116th Avenue, NW",Calgary,T3A 4ZG,AB,Canada
+331,Mei-Wah,Zopf,JC,mzopf@hotmail.com,4032815987,4035901547,7/26/1972,"3448 76th ST., SW",Calgary,T2P 2G7,AB,Canada
+332,Paula,Mwangi,BD,pmwangi@home.com,4032546146,4036861475,12/13/1963,"321 Hill Ave., SW",Calgary,T2P 2G7,AB,Canada
+333,Artie,Ward,BP,award@msn.com,4032551958,4032846544,,"951 Carroll St .#3B, NW",Calgary,T2K 3E3,AB,Canada
+334,Sarah,Annina,BD, ,4032551457,4032264477,9/1/1979,"64 Janes Ln, NW",Calgary,T2K 6C5,AB,Canada
+335,Jane,Jackson,BD, ,4032551254,4032796878,,"34 Park Row, SE",Calgary,T3G 2C6,AB,Canada
+336,Steven,Gallagher,JD, ,4032557854,4032691999,,"522 60th St., NE",Calgary,T2V 2K9,AB,Canada
+337,Preston,Cross,DR, ,4032553254,4032461236,10/16/1941,"131-572 30th, NE",Calgary,T2V 2K5,AB,Canada
+338,Helga,Towle,JM,htowle@cadvision.com,4032557865,4032953257,,"87B Hastings Ave., NE",Calgary,T2V 2K6,AB,Canada
+339,Piang,Nyziak,BD, ,4032552547,4036861587,,"646 Argyle Rd.B20, NE",Calgary,T2V 2K7,AB,Canada
+340,David,Eng,JM, ,4032551478,4032557533,,"547 Crown St., NE",Calgary,T2J 2Z5,AB,Canada
+341,Kevin,Porch,BD,kporch@aol.com,4037203657,4036865877,,"1531 John St., NE",Calgary,T2J 2L7,AB,Canada
+342,Marianne,De Armas,BS, ,4037208965,4032546146,,"25 Duncan Ave., NE",Calgary,T2J 3T7,AB,Canada
+343,Ray,Schafer,BD,rschafer@aol.com,4037201547,4036202357,,"73 Wilson St, NE",Calgary,T2J 2J2,AB,Canada
+344,R.,Sprouse,JM,rsprouse@msn.com,4032702587,4032892587,,"525 E. Front St., NE",Calgary,T3E 5Y6,AB,Canada
+345,Peter,Carey,BD, ,4032703245,4032309955,11/5/1960,"23 School Lane, SW",Calgary,T2Y 1S3,AB,Canada
+346,Joane,Buckberg,JL, ,4032704589,4032305511,5/9/1953,311 Temple Pl.,Calgary,T2Z 1R7,AB,Canada
+347,Edith,Daly,DR, ,4032701547,4032467894,,1763 E 28th St,Calgary,T2Z 1V3,AB,Canada
+348,Morty,Miller,JL,mmiller@aol.com,4032703589,,,"14 Side Hill Rd, NE",Calgary,T2V 1V9,AB,Canada
+349,Margaret,Mandel,JL,mmandel@istar.com,4032092547,4035906587,,"1701 Albemarne Wd.F3, SE",Calgary,T2X 1G2,AB,Canada
+351,Alan,Galik,JW, ,4032092548,4032691854,10/20/1959,"84-23 Mantuon St #4E, SE",Calgary,T2X 1H4,AB,Canada
+352,Debra,Shah,JM,debrashah@hotmail.co,4032099966,4036205566,,"118-4820 3rd St, NE",Calgary,T2J 7E3,AB,Canada
+353,Paul,Intal,JL, ,4032096633,4032795652,,"62A Brookdale Grdns., SE",Calgary,T2Z 3M9,AB,Canada
+355,Romeo,Ittoop,JL, ,4032091144,4032796411,9/2/1968,"837 Pavonia Ave.,",Calgary,T2Z 2Z9,AB,Canada
+356,John,Ancean,DR, ,4032096578,4032262255,6/5/1978,"23 Pines Bridge Rd, SW",Calgary,T1Y 6N4,AB,Canada
+357,Tom,Vargas,JC,tvargas@aol.com,4032091547,4032843325,,"86 Harmon St., SW",Calgary,T1Y 6N5,AB,Canada
+358,Valerie,Avia,JM, ,4032092587,4037501598,6/5/1979,"142-20 Franklin Ave., NW",Calgary,T3A 4ZG,AB,Canada
+359,Fermin,Galik,JD, ,4032091547,4032691954,2/15/1956,"54 Grand St., SW",Calgary,T2P 2G7,AB,Canada
+360,Calvin,Kiraly,BD, ,4032951596,4032841154,,"P.O. Box 1627, SW",Calgary,T2P 2G7,AB,Canada
+361,Rawan,Rosenberg,BD,rrosenberg@hotmail.c,4032952587,4037208965,,"94-31 59th Ave #5A, NW",Calgary,T2K 3E3,AB,Canada
+362,Yu,Sentell,BD,yusentell@msn.com,4032953257,4036204587,,"1679 Woodbine St., NW",Calgary,T2K 6C5,AB,Canada
+363,Bridget,Hagel,BD, ,4032951245,4032793254,,"640 E 94th St, SE",Calgary,T3G 2C6,AB,Canada
+364,Howard,Leopta,BD,hleopta@istar.com,40329532583,4032847859,,"269 Vassar Ave, NE",Calgary,T2V 2K9,AB,Canada
+365,Kathleen,Mastandora,JL,kmastandora@msn.com,4032956587,4035909633,,"Box 165, NE",Calgary,T2V 2K5,AB,Canada
+366,Gabriel,Smith,BD,gsmith@istar.com,4032952578,4032839635,,"451 E 26th St, NE",Calgary,T2V 2K6,AB,Canada
+367,Raymond,Cheevens,BD, ,4032953589,4032439635,11/18/1959,"2 Broadview Rd., NE",Calgary,T2V 2K7,AB,Canada
+368,Kevin,Lin,BD,klin@msn.com,4032952547,4032849956,8/3/1960,"1402 Easter Pkwy, NE",Calgary,T2J 2Z5,AB,Canada
+369,Lorraine,Tucker,BS,ltucker@home.com,4032952145,4032841236,6/11/1981,"200 Winston Dr., NE",Calgary,T2J 2L7,AB,Canada
+370,John,Mithane,BD,jmithane@msn.com,4036862578,4036406541,6/8/1963,"770 Amsterdam Ave. #20, NE",Calgary,T2J 6B6,AB,Canada
+371,Craig,Anglin,BD, ,4036862569,4032264411,7/23/1989,"199-46 21st Ave., NE",Calgary,T2J 6B6,AB,Canada
+372,Zalman,Draquez,JL, ,4036861254,4032551958,,"51 10 Ave., NE",Calgary,T2J 7E3,AB,Canada
+373,Reeva,Yeroushalmi,BD, ,4036862587,4032849956,,"4500 Beach St., NW",Calgary,T2Z 3M9,AB,Canada
+374,Leonard,Millstein,BD,lmillstein@nucleos.c,4036862478,4036405645,,"31 Thistle Lane, NW",Calgary,T2Z 2Z9,AB,Canada
+375,Jack,Kasperovich,DR, ,40368633663,4032958887,7/21/1955,"98-171 62nd Ave., SW",Calgary,T1Y 6N4,AB,Canada
+376,Lorelei,McNeal,JM,lmcneal@msn.com,4036869966,4036401155,,"432 Hunt Ln., SW",Calgary,T1Y 6N5,AB,Canada
+378,William,Gallo,BD, ,4036861144,4032693678,2/26/1956,"PO Box 6309, NW",Calgary,T3A 4ZG,AB,Canada
+379,Craig,Padron,DR,craigpadron@msn.com,4036865588,4036862587,9/21/1955,"199-46 21st Ave., SW",Calgary,T2P 2G7,AB,Canada
+380,Joel,Krot,JL, ,4036865877,4032842255,,"111 Village Hill Dr., SW",Calgary,T2P 2G7,AB,Canada
+381,Allan,Simmons,DR,asimmons@home.com,4036865897,4036208899,,"2422 Brigham St., NW",Calgary,T2K 3E3,AB,Canada
+382,Michael,Miroff,JM,mmiroff@aol.com,4036861547,4036405875,,"1316 Southland Dr., SW",Calgary,T2K 6C5,AB,Canada
+383,Roger,Cowie,DR, ,4036863587,4032449635,2/6/1957,"739 Willow St., SE",Calgary,T3G 2C6,AB,Canada
+384,Asian,Chirichella,JM, ,4036862587,4032439653,6/1/1940,"134-25 FranklinAve., NE",Calgary,T2V 2K9,AB,Canada
+385,Yvonne,Allende,DR, ,4035906587,4032261144,,"8020 Fort Ave. #A3, NE",Calgary,T2V 2K5,AB,Canada
+386,Sengita,MacDonald,JL,smcdonald@aol.com,4035904578,4035904563,,"76 Beddington Close, NE",Calgary,T2V 2K6,AB,Canada
+387,Paul,Braun,JM, ,4035901547,4037509966,,"224 40th St, NE",Calgary,T2V 2K7,AB,Canada
+388,Anna,Bathmanapan,JC, ,4035906633,4037502587,,"481 Van Buren St. #C1, NE",Calgary,T2J 6P3,AB,Canada
+389,Shirley,Leung,JD,sleung@telusplanet.n,4035904577,4032847899,,"88 Sherman St., NE",Calgary,T2J 6B6,AB,Canada
+390,V.,Greenberg,DR, ,4035909988,4032783652,,"105-346 5th Ave. #6B, NE",Calgary,T2J 6B6,AB,Canada
+391,Rafael A.,Torres,BD,ratorres@aol.com,4035908855,4032952587,,"142-20 Franklin Ave., NE",Calgary,T2J 7E3,AB,Canada
+392,V.,Saliternan,BD,saliternan@msn.com,4035907896,4036201257,,"105-346 5th Ave.,SW",Calgary,T2Z 1N9,AB,Canada
+393,Melvin,Martin,BD,mlvmartin@nucleos.co,4035909874,4035907896,,"88 Sherman St., NE",Calgary,T2E 7R4,AB,Canada
+394,Vera,Wetcel,BP,vwetcel@home.com,4035904563,4032846653,,"172-121 33rd Ave., NW",Calgary,T2A 2S9,AB,Canada
+396,James E.,Norman,JM,jnorman@hotmail.com,4035691236,4036861478,,"PO Box 809 Curran Hwy, SW",Calgary,T2H 3J9,AB,Canada
+397,Margaret,Lloyd,JD,mlloyd@home.com,4035693214,,,"77-15 113th Street, NE",Calgary,T2J 4N4,AB,Canada
+399,Jerry,Abdou,JL, ,4035695412,4032255231,2/23/1949,"460 15th St. #4, SW",Calgary,T3C 2V6,AB,Canada
+400,Daniel,Velasco,JW, ,4036404569,4032844455,,"200 WinstonDr. #2212, NW",Calgary,T2M 4P4,AB,Canada
+402,John,De Simone,BS, ,4032557533,4032551254,,"107-28 115th St, NW",Calgary,T2M 4P4,AB,Canada
