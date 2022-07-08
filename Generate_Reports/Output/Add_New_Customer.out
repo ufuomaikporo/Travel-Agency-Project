@@ -1,0 +1,39 @@
+
+PL/SQL procedure successfully completed.
+
+
+'Please enter the new customer information below'
+
+Enter the customer's first name: Sharon
+Enter the customer's last name: Jones
+Enter the customer's home phone number without hyphens (i.e. 4034664556): 5874553232
+Enter the customer's business phone number without hyphens (i.e. 4034664556): 
+Enter the customer's street number and address: 150 Sherview Lane
+Enter the customer's city: Calgary
+Enter the customer postal code or zipcode: t3n 5h6
+Enter the customer's province or state initials (i.e. AB for Alberta): AB
+Enter the customer's country: Canada
+Enter the customer's email address: sharonjones@gmail.com
+Enter the customer birthdate in the format 'YYYY-MM-DD': 1972-02-20
+Enter the agent ID for the customer: 102
+
+You've enterd the following information for client ID: 404
+
+NAME: Sharon Jones
+ADDRESS: 150 Sherview Lane Calgary, AB T3N 5H6, Canada
+HOME PHONE: 587-455-5323
+BUSINESS PHONE: --
+BIRTHDATE: February 20 1972
+AGENT: 102                                                                                                                                                                                                                                                                                           
+
+PL/SQL procedure successfully completed.
+
+If the customer information is correct, press 'Y' to save. Press 'N' to exit without saving: y
+
+A NEW customer has been added to the client table                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+PL/SQL procedure successfully completed.
+
+
+Sequence dropped.
+

@@ -1,0 +1,35 @@
+
+Please enter an itinerary number (trip identifier): 136
+
+
+                      TRAVEL EXPERTS
+                      1155 8th Ave S.W.
+                      Calgary, AB. T2P 1N3
+                      Ph: 403-271-9873 Fax: 403-271-9872
+                                                                                                                                                                                                                                                                                                                                  
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+To:                                               Date: 06 Jun 2022
+        Laetia Enison                             Consultant: Brian S. Peterson
+        144-61 87th Ave, NE                       Customer No: 104
+        Calgary, AB                               Passengers: 
+        T2J 6B6                                   Invoice/Itinerary No. 136
+                                                                                                                                                  
+
+Prepared for: 
+        Laetia Enison                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+
+Trip Details 
+        Start Date: 30 January   2017
+        End Date: 11 February  2017
+        Destination: Asia
+                                                                                                                                                                                                                                                                                                                                                                                                 
+
+Supplier                      Description                        Booking No.    Start Date  End Date     Price
+                                                                                                                                                                                                                                                                                                                                                                                                    
+UNITED AIRLINES               Calgary/Toronto/Calgary            108            06/02/17    11/02/17      700.00                                                                                                                                                                                                                                                                                                                                                                                                    
+CHINA TRAVEL HOTEL MANAGE                                        106            30/01/17    10/02/17      900.00                                                                                                                                                                                                                                                                                                                                                                                                    
+UNITED AIRLINES               Calgary/Hong Kong/Calgary          107            30/01/17    10/02/17     5200.00                                                                                                                                                                                                                                                                                                                                                                                                    
+
+PL/SQL procedure successfully completed.
+

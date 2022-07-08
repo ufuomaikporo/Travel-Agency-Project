@@ -1,0 +1,202 @@
+
+Enter a commission status (i.e owing, outstanding, collected, or invalid): owing
+
+                                                          Travel Experts                                                          
+                                                          1234 5th Ave SW                                                         
+                                                        Calgary, AB T2P 2A6                                                       
+                                                Ph: 403 123 4567 Fax: 403 123 5678                                                
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                     Commission Status Report                                                     
+                                                                                                                                  
+ Itinerary Sales                 Booking   Supplier                                              Comm Comm                        
+        ID Date                       No         ID Company                                       Due Status                      
+---------- ------------------ ---------- ---------- ---------------------------------------- -------- -----------                 
+       276 01-JAN-17                 251      11163 RADISSON HOTELS & RESORTS WORLDWIDE        $32.50 OWING                       
+       441 01-JAN-17                 411        374 BEST WESTERN INTERNATIONAL INC.            $32.50 OWING                       
+       599 01-JAN-17                 623        374 BEST WESTERN INTERNATIONAL INC.            $48.75 OWING                       
+       641 01-JAN-17                 612        374 BEST WESTERN INTERNATIONAL INC.            $42.25 OWING                       
+       794 01-JAN-17                1315       7244 WORLD ACCESS MARKETING                     $61.75 OWING                       
+       794 01-JAN-17                 764      11160 SASKATCHEWAN BLUE CROSS                     $6.00 OWING                       
+       807 01-JAN-17                1090       7244 WORLD ACCESS MARKETING                     $39.00 OWING                       
+       996 01-JAN-17                 968      11237 RAMADA PLAZA HOTEL                         $47.13 OWING                       
+       996 01-JAN-17                 967       1416 EUROPCAR                                   $12.40 OWING                       
+       651 01-JAN-18                 621      11172 PACIFIC BLUE CROSS                          $2.50 OWING                       
+       354 02-FEB-16                 324      11237 RAMADA PLAZA HOTEL                          $8.04 OWING                       
+       744 02-FEB-16                 715      11156 ALITOURS CAR RENTAL BY HERTZ                $3.45 OWING                       
+       829 02-FEB-16                 799      11237 RAMADA PLAZA HOTEL                          $7.59 OWING                       
+      1013 02-FEB-16                 983       1406 HILTON INTERNATIONAL                        $6.90 OWING                       
+      1281 02-FEB-16                1251      12110 FORTE & LE MERIDIEN HOTELS                  $8.63 OWING                       
+      1281 02-FEB-16                1253      11156 ALITOURS CAR RENTAL BY HERTZ                $5.06 OWING                       
+      1336 02-FEB-16                1307       1921 EMBASSY SUITES - TORONTO/MARKHAM            $7.59 OWING                       
+      1336 02-FEB-16                1306       1416 ALAMO RENT A CAR                            $5.75 OWING                       
+      1340 02-FEB-16                1310      11237 RAMADA PLAZA HOTEL                          $8.04 OWING                       
+       535 02-FEB-17                 505       8216 RAMADA HOTEL AND SUITES DOWNTOWN TORONTO    $3.45 OWING                       
+       623 02-FEB-17                 593      11211 THE LOMBARD                                 $2.88 OWING                       
+       876 02-FEB-17                 848        317 AUTO EUROPE                                $21.70 OWING                       
+      1023 02-FEB-17                 996       9766 CONCORDE HOTELS (WORLDWIDE)                $32.50 OWING                       
+      1230 02-FEB-18                1200       9766 CONCORDE HOTELS (WORLDWIDE)                $58.50 OWING                       
+       222 03-MAR-17                 193       2938 NATIONAL CAR RENTAL                        $24.80 OWING                       
+       222 03-MAR-17                 194       7244 WORLD ACCESS MARKETING                     $61.75 OWING                       
+       242 03-MAR-17                 213       7244 WORLD ACCESS MARKETING                     $39.00 OWING                       
+       286 03-MAR-17                 257       7244 WORLD ACCESS MARKETING                     $61.75 OWING                       
+       286 03-MAR-17                 259       2938 NATIONAL CAR RENTAL                        $27.90 OWING                       
+       286 03-MAR-17                 258       2938 NATIONAL CAR RENTAL                        $27.90 OWING                       
+       372 03-MAR-17                 343       7244 WORLD ACCESS MARKETING                     $68.25 OWING                       
+       447 03-MAR-17                 418       7244 WORLD ACCESS MARKETING                     $35.75 OWING                       
+       514 03-MAR-17                 484        603 DAYS INN - TORONTO DOWNTOWN                 $1.00 OWING                       
+       687 03-MAR-17                1132       7244 WORLD ACCESS MARKETING                     $10.35 OWING                       
+       687 03-MAR-17                 657      11160 SASKATCHEWAN BLUE CROSS                     $6.00 OWING                       
+       695 03-MAR-17                1232       7244 WORLD ACCESS MARKETING                     $45.50 OWING                       
+       695 03-MAR-17                 665      11160 SASKATCHEWAN BLUE CROSS                     $5.00 OWING                       
+       740 03-MAR-17                1382       7244 WORLD ACCESS MARKETING                     $61.75 OWING                       
+       740 03-MAR-17                 710      11160 SASKATCHEWAN BLUE CROSS                     $6.00 OWING                       
+       931 03-MAR-17                 902       8714 MANDITOURS INTL INC.                       $42.25 OWING                       
+       931 03-MAR-17                 902       8714 MANDITOURS INTL INC.                       $42.25 OWING                       
+       931 03-MAR-17                 902       8714 MANDITOURS INTL INC.                       $42.25 OWING                       
+      1064 03-MAR-17                1036       2938 NATIONAL CAR RENTAL                        $18.60 OWING                       
+      1064 03-MAR-17                1035       8714 MANDITOURS INTL INC.                       $10.93 OWING                       
+      1064 03-MAR-17                1035       8714 MANDITOURS INTL INC.                       $10.93 OWING                       
+      1064 03-MAR-17                1035       8714 MANDITOURS INTL INC.                       $10.93 OWING                       
+      1290 03-MAR-17                1261       7244 WORLD ACCESS MARKETING                     $55.25 OWING                       
+      1350 03-MAR-17                1320         93 NEW CONCEPTS - CANADA                      $39.00 OWING                       
+      1350 03-MAR-17                1320         93 NEW CONCEPTS - CANADA                      $39.00 OWING                       
+       173 03-MAR-18                 143       3273 VIP INTERNATIONAL                           $2.29 OWING                       
+       247 03-MAR-18                 217        323 AVIS RENT A CAR                            $29.25 OWING                       
+       265 03-MAR-18                 235       3273 VIP INTERNATIONAL                          $32.50 OWING                       
+       323 03-MAR-18                 293       3273 VIP INTERNATIONAL                           $2.29 OWING                       
+       375 03-MAR-18                 345       3273 VIP INTERNATIONAL                           $2.53 OWING                       
+       688 03-MAR-18                 658       3273 VIP INTERNATIONAL                          $10.35 OWING                       
+       727 03-MAR-18                 697       3273 VIP INTERNATIONAL                           $2.29 OWING                       
+      1150 03-MAR-18                1120       3273 VIP INTERNATIONAL                           $2.29 OWING                       
+      1225 03-MAR-18                1195       3273 VIP INTERNATIONAL                           $2.53 OWING                       
+      1424 03-MAR-18                1394       3273 VIP INTERNATIONAL                          $10.93 OWING                       
+       395 05-MAY-17                 365      11220 DELTA CHELSEA HOTEL                         $2.30 OWING                       
+       663 05-MAY-17                 634       8714 MANDITOURS INTL INC.                       $39.00 OWING                       
+       663 05-MAY-17                 634       8714 MANDITOURS INTL INC.                       $39.00 OWING                       
+       663 05-MAY-17                 635       2938 NATIONAL CAR RENTAL                        $27.90 OWING                       
+       663 05-MAY-17                 634       8714 MANDITOURS INTL INC.                       $39.00 OWING                       
+       696 05-MAY-17                1104       8714 MANDITOURS INTL INC.                       $52.00 OWING                       
+       696 05-MAY-17                1104       8714 MANDITOURS INTL INC.                       $52.00 OWING                       
+       696 05-MAY-17                1104       8714 MANDITOURS INTL INC.                       $52.00 OWING                       
+       696 06-JUN-17                1106       2938 NATIONAL CAR RENTAL                        $27.90 OWING                       
+       696 06-JUN-17                1105       2938 NATIONAL CAR RENTAL                        $27.90 OWING                       
+       254 07-JUL-17                 225       3622 CHINA TRAVEL SERVICE (CANADA) INC          $65.00 OWING                       
+       254 07-JUL-17                 225       3622 CHINA TRAVEL SERVICE (CANADA) INC          $65.00 OWING                       
+       254 07-JUL-17                 225       3622 CHINA TRAVEL SERVICE (CANADA) INC          $65.00 OWING                       
+       254 07-JUL-17                 225       3622 CHINA TRAVEL SERVICE (CANADA) INC          $65.00 OWING                       
+       254 07-JUL-17                 225       3622 CHINA TRAVEL SERVICE (CANADA) INC          $65.00 OWING                       
+       254 07-JUL-17                 225       3622 CHINA TRAVEL SERVICE (CANADA) INC          $65.00 OWING                       
+       365 07-JUL-17                 336       3622 CHINA TRAVEL SERVICE (CANADA) INC          $48.75 OWING                       
+       365 07-JUL-17                 336       3622 CHINA TRAVEL SERVICE (CANADA) INC          $48.75 OWING                       
+       365 07-JUL-17                 336       3622 CHINA TRAVEL SERVICE (CANADA) INC          $48.75 OWING                       
+       365 07-JUL-17                 336       3622 CHINA TRAVEL SERVICE (CANADA) INC          $48.75 OWING                       
+       365 07-JUL-17                 336       3622 CHINA TRAVEL SERVICE (CANADA) INC          $48.75 OWING                       
+       365 07-JUL-17                 336       3622 CHINA TRAVEL SERVICE (CANADA) INC          $48.75 OWING                       
+       130 08-AUG-16                 100       1416 ALAMO RENT A CAR                           $15.50 OWING                       
+       130 08-AUG-16                 101       1406 HILTON INTERNATIONAL                        $7.48 OWING                       
+       181 08-AUG-16                 151       1406 HILTON INTERNATIONAL                        $7.13 OWING                       
+       350 08-AUG-16                 321      12110 FORTE & LE MERIDIEN HOTELS                  $6.90 OWING                       
+       350 08-AUG-16                 320      11156 ALITOURS CAR RENTAL BY HERTZ               $12.40 OWING                       
+
+                                                          Travel Experts                                                          
+                                                          1234 5th Ave SW                                                         
+                                                        Calgary, AB T2P 2A6                                                       
+                                                Ph: 403 123 4567 Fax: 403 123 5678                                                
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                     Commission Status Report                                                     
+                                                                                                                                  
+ Itinerary Sales                 Booking   Supplier                                              Comm Comm                        
+        ID Date                       No         ID Company                                       Due Status                      
+---------- ------------------ ---------- ---------- ---------------------------------------- -------- -----------                 
+       384 08-AUG-16                 355       2938 NATIONAL CAR RENTAL                        $24.80 OWING                       
+       636 08-AUG-16                 608       1416 ALAMO RENT A CAR                           $15.50 OWING                       
+       636 08-AUG-16                 607       1406 HILTON INTERNATIONAL                        $6.50 OWING                       
+       647 08-AUG-16                 619       1416 ALAMO RENT A CAR                           $13.64 OWING                       
+       647 08-AUG-16                 617       1406 HILTON INTERNATIONAL                        $6.04 OWING                       
+       952 08-AUG-16                 922      11156 ALITOURS CAR RENTAL BY HERTZ                $4.03 OWING                       
+      1010 08-AUG-16                 980       1406 HILTON INTERNATIONAL                        $8.63 OWING                       
+      1010 08-AUG-16                 981       3549 AIR CANADA                                 $32.50 OWING                       
+      1086 08-AUG-16                1057      11177 AIRPORT HOTEL HALIFAX                      $34.13 OWING                       
+      1254 08-AUG-16                1224       1416 EUROPCAR                                    $7.44 OWING                       
+      1445 08-AUG-16                1415       1921 EMBASSY SUITES - TORONTO/MARKHAM           $33.80 OWING                       
+       411 08-AUG-17                 382       9766 D-TOUR MARKETING                           $61.75 OWING                       
+       796 08-AUG-17                 767       9766 D-TOUR MARKETING                           $61.75 OWING                       
+       267 09-SEP-16                 238        317 AUTO EUROPE                                $15.50 OWING                       
+       386 09-SEP-16                 357      11237 RAMADA PLAZA HOTEL                         $50.70 OWING                       
+       585 09-SEP-16                 556       1406 HILTON INTERNATIONAL                        $6.67 OWING                       
+       729 09-SEP-16                 700      11232 HOLIDAY INN HARBOURVIEW                    $51.19 OWING                       
+       826 09-SEP-16                 796       1406 HILTON INTERNATIONAL                        $5.75 OWING                       
+      1051 09-SEP-16                1024       8320 DOLLAR RENT A CAR SYSTEMS INC               $6.90 OWING                       
+      1353 09-SEP-16                1323      13596 NIAGARA-ON-THE-LAKE VINTAGE INNS           $59.15 OWING                       
+      1462 09-SEP-16                1433      11237 RAMADA PLAZA HOTEL                          $8.34 OWING                       
+       234 09-SEP-17                 205       9766 D-TOUR MARKETING                           $48.75 OWING                       
+       145 10-OCT-16                 115      13596 NIAGARA-ON-THE-LAKE VINTAGE INNS            $7.76 OWING                       
+       219 10-OCT-16                 189       1406 HILTON INTERNATIONAL                        $6.79 OWING                       
+       272 10-OCT-16                 242      11237 RAMADA PLAZA HOTEL                          $7.48 OWING                       
+       284 10-OCT-16                 254      13596 NIAGARA-ON-THE-LAKE VINTAGE INNS            $7.13 OWING                       
+       342 10-OCT-16                 313       1406 HILTON INTERNATIONAL                       $42.22 OWING                       
+       591 10-OCT-16                 562      11237 RAMADA PLAZA HOTEL                          $7.48 OWING                       
+       761 10-OCT-16                 732      11237 RAMADA PLAZA HOTEL                          $6.90 OWING                       
+       782 10-OCT-16                 752      13596 NIAGARA-ON-THE-LAKE VINTAGE INNS            $5.74 OWING                       
+       789 10-OCT-16                 759       1406 HILTON INTERNATIONAL                        $9.78 OWING                       
+       871 10-OCT-16                 841      11237 RAMADA PLAZA HOTEL                          $7.19 OWING                       
+       893 10-OCT-16                 863      11223 EDMONTON HOUSE                              $6.61 OWING                       
+       964 10-OCT-16                 935       1416 AVIS RENT A CAR                            $21.70 OWING                       
+      1015 10-OCT-16                 986      11237 RAMADA PLAZA HOTEL                          $7.48 OWING                       
+      1056 10-OCT-16                1027      11237 RAMADA PLAZA HOTEL                          $8.05 OWING                       
+      1088 10-OCT-16                1058      13596 NIAGARA-ON-THE-LAKE VINTAGE INNS            $7.50 OWING                       
+      1128 10-OCT-16                1098      13596 NIAGARA-ON-THE-LAKE VINTAGE INNS            $5.75 OWING                       
+      1212 10-OCT-16                1182      13596 NIAGARA-ON-THE-LAKE VINTAGE INNS            $5.26 OWING                       
+      1257 10-OCT-16                1227      13596 NIAGARA-ON-THE-LAKE VINTAGE INNS            $7.19 OWING                       
+      1302 10-OCT-16                1272       1406 HILTON INTERNATIONAL                        $5.64 OWING                       
+      1407 10-OCT-16                1378      11237 RAMADA PLAZA HOTEL                         $45.50 OWING                       
+      1448 10-OCT-16                1418      11237 RAMADA PLAZA HOTEL                          $8.05 OWING                       
+       236 10-OCT-17                 207       9323 SRS - WORLD HOTELS                         $81.25 OWING                       
+       557 10-OCT-17                 528       9766 D-TOUR MARKETING                           $78.00 OWING                       
+       798 10-OCT-17                 769       9766 D-TOUR MARKETING                           $52.00 OWING                       
+       853 10-OCT-17                 824       9766 D-TOUR MARKETING                           $48.75 OWING                       
+       905 10-OCT-17                 876       9766 D-TOUR MARKETING                           $87.75 OWING                       
+       959 10-OCT-17                 930       9323 SRS - WORLD HOTELS                         $78.00 OWING                       
+      1264 10-OCT-17                1235       9766 D-TOUR MARKETING                           $48.75 OWING                       
+      1294 10-OCT-17                1265       9323 SRS - WORLD HOTELS                         $87.75 OWING                       
+       908 10-OCT-19                 883        323 AVIS RENT A CAR                            $21.70 OWING                       
+       908 10-OCT-19                 882        323 AVIS RENT A CAR                            $21.70 OWING                       
+       908 10-OCT-19                 881        323 AVIS RENT A CAR                            $21.70 OWING                       
+       908 10-OCT-19                 880        323 AVIS RENT A CAR                            $21.70 OWING                       
+       908 10-OCT-19                 879        323 AVIS RENT A CAR                            $21.70 OWING                       
+       735 11-NOV-16                 706      11237 RAMADA PLAZA HOTEL                          $8.97 OWING                       
+       901 11-NOV-16                 871      11223 EDMONTON HOUSE                              $7.13 OWING                       
+       971 11-NOV-16                 941      13596 NIAGARA-ON-THE-LAKE VINTAGE INNS            $6.90 OWING                       
+       991 11-NOV-16                 961       2519 RENT-A-WRECK                                $3.45 OWING                       
+      1116 11-NOV-16                1087      11223 EDMONTON HOUSE                             $10.24 OWING                       
+      1242 11-NOV-16                1212      11223 EDMONTON HOUSE                              $7.19 OWING                       
+       227 11-NOV-17                 198       9323 SRS - WORLD HOTELS                         $81.25 OWING                       
+       339 11-NOV-17                 310       9323 SRS - WORLD HOTELS                         $97.50 OWING                       
+       487 11-NOV-17                 458       9323 SRS - WORLD HOTELS                        $100.75 OWING                       
+       136 12-DEC-16                 106       3622 CHINA TRAVEL HOTEL MANAGEMENT SERVICES H   $10.35 OWING                       
+                                                    ONG KONG LTD.                                                                 
+                                                                                                                                  
+       148 12-DEC-16                 119      11163 RADISSON HOTELS & RESORTS WORLDWIDE        $11.39 OWING                       
+       438 12-DEC-16                 408      11241 HOTEL PRESIDENT                            $39.00 OWING                       
+       453 12-DEC-16                 423       3622 CHINA TRAVEL HOTEL MANAGEMENT SERVICES H   $32.50 OWING                       
+                                                    ONG KONG LTD.                                                                 
+                                                                                                                                  
+       510 12-DEC-16                 481        817 DELTA HOTELS                               $48.75 OWING                       
+       510 12-DEC-16                 482       1371 HERTZ                                       $5.75 OWING                       
+       510 12-DEC-16                 483       1371 HERTZ                                       $5.75 OWING                       
+       555 12-DEC-16                1336      11237 RAMADA PLAZA HOTEL                          $8.63 OWING                       
+       598 12-DEC-16                 568      11172 PACIFIC BLUE CROSS                          $1.70 OWING                       
+       716 12-DEC-16                1126      11163 RADISSON HOTELS & RESORTS WORLDWIDE        $39.00 OWING                       
+      1388 12-DEC-16                1358      11213 CROWNE PLAZA-CHATEAU LACOMBE               $10.35 OWING                       
+      1471 12-DEC-21                1449       3549 AIR CANADA                                   $.00 OWING                       
+      1471 12-DEC-21                1450      11232 HOLIDAY INN HARBOURVIEW                    $25.00 OWING                       
+      1471 12-DEC-21                1446         48 SIGNATURE VACATIONS                       $450.00 OWING                       
+
+165 rows selected.
+

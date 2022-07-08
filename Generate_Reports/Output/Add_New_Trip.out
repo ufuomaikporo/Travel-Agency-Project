@@ -1,0 +1,51 @@
+
+**************************************************************************************
+If the customer this trip is being planned for has not not been added to the database
+run the Add_New_Customer.sql script first
+**************************************************************************************
+
+Enter the client ID for this trip: 403
+Enter the trip start date (Format YYYY-MM-DD): 2021-09-20
+Enter the trip end date (Format YYYY-MM-DD): 2021-10-05
+Enter the trip destination code (i.e. MED for Mediterranean): SP
+Enter The trip type (i.e. 'B' for Business, 'L' for Leisure, or 'G' for Group trip): L
+Enter the number of travellers for this trip: 2
+Enter the names of the travellers in a comma-delimited list (i.e. Jim Evans, Jane Evans,...): Mike Jones, Sharon Jones
+Enter the agent ID for the agent booking this trip: 102
+
+Is this trip being planned for a special date such as a birthday or anniversary?
+
+Enter the special date (i.e. format: YYYY-MM-DD) or enter 1111-11-11 if not applicable: 1991-09-22
+What is the significance of the special date (i.e. birthday, anniversary): Anniversary
+
+PL/SQL procedure successfully completed.
+
+You have entered the following information for a new planned trip...
+                                                                                                                                                                                                                                       
+Itinerary No. --> 1471                                                                                                                                                                                                                                                                                      
+Client --> Mike Jones                                                                                                                                                                                                                                                                                       
+Special Date --> 22-SEP-1991                                                                                                                                                                                                                                                                                
+Special Date Description --> ANNIVERSARY                                                                                                                                                                                                                                                                    
+Trip Start Date --> 20-SEP-2021                                                                                                                                                                                                                                                                             
+Trip End Date --> 05-OCT-2021                                                                                                                                                                                                                                                                               
+Destination --> South Pacific                                                                                                                                                                                                                                                                               
+Trip Type --> Leisure                                                                                                                                                                                                                                                                                       
+Number of Travellers --> 2                                                                                                                                                                                                                                                                                  
+Travellers --> Mike Jones, Sharon Jones                                                                                                                                                                                                                                                                     
+
+PL/SQL procedure successfully completed.
+
+If the Trip information is correct, press 'Y' to save. Press 'N' to exit without saving: Y
+
+A NEW Trip has been added. The itinerary number is 1471
+Make a note of the itinerary number above                                                                                                                                                                                                          
+Run the Add_New_Booking.sql script to add each product booking individually to this trip                                                                                                                                                                                                                    
+
+PL/SQL procedure successfully completed.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
