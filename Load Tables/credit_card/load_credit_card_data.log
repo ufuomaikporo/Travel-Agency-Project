@@ -1,0 +1,3484 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Thu May 12 15:41:15 2022
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   C:\TXPDB\C_Drive\scripts\Loading_tables\credit_card\load_credit_card_data.ctl
+Data File:      C:\TXPDB\C_Drive\scripts\Loading_tables\Sales_data\sales_data.csv
+  Bad File:     C:\TXPDB\C_Drive\scripts\Loading_tables\credit_card\credit_card_data.bad
+  Discard File: C:\TXPDB\C_Drive\scripts\Loading_tables\credit_card\credit_card_data.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 2000
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table CREDIT_CARD, loaded from every logical record.
+Insert option in effect for this table: REPLACE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SALE_DATE                           FIRST     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+CLIENT_ID                            NEXT     *   ,  O(") CHARACTER            
+ITINERARY_NO                         NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+AGENT                                NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+BOOKING_NO                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PRODUCT_ID                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+SUPPLIER_ID                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+OFFICE                               NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PROD_START                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PROD_END                             NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+CLASS_CODE                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+TRAVELLERS                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PROD_NAME                            NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+DESCRIPTION                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+DESTINATION                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+CONTINENT                            NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+TYPE                                 NEXT     *   ,  O(") CHARACTER            
+EXPIRY_DATE                          NEXT     *   ,  O(") DATE MM/DD/YYYY      
+CARD_NO                              NEXT     *   ,  O(") CHARACTER            
+PAYMENT_DATE                         NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PAYMENT_DESC                         NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+BASE_PRICE                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+TOTAL_PRICE                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PAYMENT_AMT                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+FEE_CODE                             NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+FEE_AMT                              NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+COMM_AMT                             NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+TRIP_START                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+TRIP_END                             NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+
+Record 2: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 3: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 4: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 5: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 7: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 8: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 9: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 10: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 11: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 12: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 14: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 15: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 17: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 18: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 19: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 20: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 24: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 25: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 26: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 27: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 28: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 29: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 30: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 31: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 32: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 33: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 34: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 35: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 36: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 37: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 38: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 39: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 40: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 41: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 42: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 44: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 45: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 46: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 47: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 49: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 50: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 53: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 54: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 55: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 56: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 57: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 58: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 59: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 60: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 62: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 65: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 66: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 67: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 68: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 69: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 70: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 72: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 74: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 76: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 77: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 78: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 80: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 81: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 82: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 83: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 85: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 87: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 89: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 90: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 91: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 93: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 94: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 95: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 96: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 97: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 98: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 99: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 101: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 102: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 104: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 106: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 107: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 108: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 109: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 110: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 111: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 112: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 113: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 114: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 115: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 117: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 118: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 119: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 120: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 121: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 123: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 124: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 125: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 126: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 127: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 128: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 129: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 130: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 131: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 132: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 134: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 136: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 137: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 139: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 140: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 141: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 142: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 143: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 144: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 145: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 146: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 147: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 149: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 151: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 152: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 154: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 155: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 156: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 157: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 158: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 159: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 160: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 161: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 162: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 163: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 164: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 167: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 168: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 169: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 170: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 171: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 172: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 173: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 174: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 176: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 177: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 178: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 179: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 180: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 181: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 182: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 184: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 185: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 187: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 188: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 190: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 191: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 192: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 193: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 194: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 195: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 197: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 198: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 200: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 201: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 202: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 203: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 204: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 205: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 206: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 207: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 209: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 210: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 211: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 213: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 214: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 215: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 218: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 219: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 221: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 222: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 223: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 224: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 225: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 226: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 227: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 228: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 229: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 230: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 231: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 232: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 234: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 236: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 237: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 238: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 240: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 241: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 242: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 244: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 245: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 246: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 248: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 251: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 252: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 253: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 255: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 256: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 257: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 258: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 259: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 260: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 262: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 263: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 264: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 265: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 266: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 267: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 269: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 270: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 271: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 272: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 273: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 274: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 275: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 276: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 277: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 278: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 279: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 280: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 281: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 283: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 284: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 285: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 286: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 288: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 289: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 291: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 292: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 293: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 294: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 295: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 296: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 297: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 298: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 299: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 300: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 303: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 306: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 307: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 308: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 309: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 310: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 311: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 312: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 313: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 314: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 315: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 316: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 317: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 319: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 320: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 321: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 322: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 323: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 326: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 327: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 328: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 329: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 330: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 331: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 332: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 333: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 334: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 335: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 336: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 337: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 338: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 339: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 340: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 341: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 343: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 344: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 345: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 346: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 348: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 349: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 350: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 351: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 352: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 353: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 354: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 357: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 358: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 359: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 361: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 362: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 363: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 364: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 365: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 367: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 368: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 369: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 370: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 371: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 372: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 373: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 374: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 376: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 377: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 379: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 380: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 381: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 382: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 383: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 384: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 385: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 386: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 387: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 388: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 389: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 390: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 391: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 393: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 394: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 395: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 396: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 397: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 398: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 399: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 400: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 401: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 402: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 403: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 404: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 405: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 407: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 408: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 412: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 413: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 414: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 415: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 417: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 418: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 419: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 420: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 421: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 422: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 423: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 424: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 425: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 427: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 428: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 429: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 431: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 432: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 433: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 434: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 435: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 436: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 437: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 438: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 440: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 441: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 442: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 443: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 445: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 446: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 447: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 448: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 449: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 450: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 451: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 452: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 453: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 454: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 455: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 458: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 459: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 460: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 461: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 462: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 463: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 464: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 465: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 466: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 467: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 468: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 472: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 473: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 474: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 475: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 476: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 477: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 478: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 479: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 480: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 481: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 482: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 483: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 484: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 485: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 486: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 489: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 490: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 491: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 492: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 493: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 494: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 496: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 497: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 498: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 499: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 500: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 501: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 502: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 503: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 504: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 506: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 507: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 508: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 509: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 510: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 512: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 513: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 514: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 515: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 516: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 517: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 518: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 519: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 520: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 521: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 523: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 524: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 525: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 528: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 529: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 530: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 531: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 532: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 533: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 534: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 535: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 536: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 537: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 538: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 541: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 542: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 543: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 544: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 545: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 546: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 547: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 548: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 549: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 550: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 552: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 553: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 554: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 555: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 556: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 559: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 560: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 562: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 563: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 564: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 565: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 568: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 569: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 570: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 571: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 572: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 573: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 574: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 575: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 576: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 577: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 579: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 580: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 581: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 582: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 583: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 584: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 585: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 586: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 588: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 591: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 592: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 593: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 594: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 595: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 596: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 597: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 599: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 600: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 601: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 602: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 603: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 604: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 605: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 606: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 607: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 608: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 609: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 610: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 612: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 613: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 615: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 616: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 617: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 618: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 619: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 620: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 621: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 622: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 623: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 624: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 625: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 626: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 627: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 629: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 632: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 633: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 634: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 635: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 636: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 637: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 638: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 639: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 640: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 641: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 642: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 643: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 644: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 645: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 646: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 647: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 648: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 649: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 650: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 651: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 652: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 653: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 654: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 655: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 656: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 657: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 658: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 659: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 660: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 661: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 662: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 663: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 664: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 666: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 667: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 668: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 669: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 670: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 673: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 674: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 675: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 676: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 677: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 678: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 679: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 680: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 681: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 682: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 683: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 684: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 685: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 686: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 687: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 688: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 689: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 692: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 693: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 694: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 695: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 696: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 697: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 698: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 699: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 700: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 701: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 702: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 703: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 704: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 705: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 706: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 707: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 710: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 711: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 712: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 713: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 714: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 717: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 718: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 719: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 720: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 721: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 722: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 723: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 724: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 725: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 726: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 728: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 729: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 730: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 731: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 732: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 733: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 734: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 735: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 736: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 737: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 738: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 739: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 740: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 741: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 742: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 743: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 744: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 745: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 746: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 747: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 748: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 749: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 750: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 751: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 753: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 754: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 755: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 756: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 757: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 758: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 759: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 760: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 761: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 762: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 765: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 766: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 767: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 768: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 769: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 770: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 771: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 772: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 773: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 774: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 775: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 776: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 777: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 778: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 779: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 780: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 781: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 782: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 783: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 784: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 785: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 786: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 787: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 789: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 790: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 792: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 793: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 794: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 795: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 796: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 797: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 798: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 799: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 800: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 801: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 802: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 803: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 804: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 806: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 807: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 808: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 811: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 813: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 814: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 815: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 816: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 817: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 818: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 819: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 821: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 826: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 827: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 828: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 829: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 831: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 833: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 834: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 835: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 836: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 837: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 838: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 839: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 841: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 844: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 845: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 847: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 849: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 850: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 851: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 852: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 853: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 855: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 856: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 857: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 858: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 859: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 860: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 861: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 863: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 864: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 865: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 866: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 868: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 869: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 870: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 871: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 872: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 873: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 875: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 876: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 878: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 879: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 882: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 883: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 884: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 885: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 886: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 887: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 888: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 890: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 891: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 892: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 893: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 894: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 895: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 896: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 897: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 898: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 901: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 902: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 903: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 904: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 905: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 906: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 907: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 908: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 909: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 910: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 913: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 915: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 916: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 919: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 920: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 922: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 923: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 924: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 925: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 926: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 927: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 928: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 929: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 930: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 931: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 932: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 933: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 934: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 935: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 936: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 937: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 939: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 941: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 943: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 944: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 945: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 946: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 947: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 948: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 949: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 950: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 951: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 952: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 953: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 954: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 955: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 956: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 957: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 958: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 959: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 960: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 961: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 962: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 963: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 964: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 965: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 966: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 967: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 968: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 969: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 970: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 971: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 972: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 973: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 974: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 975: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 978: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 979: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 980: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 982: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 983: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 984: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 985: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 986: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 987: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 988: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 989: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 990: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 991: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 992: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 993: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 995: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 996: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 997: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 998: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 999: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1000: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1001: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1002: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1003: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1004: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1005: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1006: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1007: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1008: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1009: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1012: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1013: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1014: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1015: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1016: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1017: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1018: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1019: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1020: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1021: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1022: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1023: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1024: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1025: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1026: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1029: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1030: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1031: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1032: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1033: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1034: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1036: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1037: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1038: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1039: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1040: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1042: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1043: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1044: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1045: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1046: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1047: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1048: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1049: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1050: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1051: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1053: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1054: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1055: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1056: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1057: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1058: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1060: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1061: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1062: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1065: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1066: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1067: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1069: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1070: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1071: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1072: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1075: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1076: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1077: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1078: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1079: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1082: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1083: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1084: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1085: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1086: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1087: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1088: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1089: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1090: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1091: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1092: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1093: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1094: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1095: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1096: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1097: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1098: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1099: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1100: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1102: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1104: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1105: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1106: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1107: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1108: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1109: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1111: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1112: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1113: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1114: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1115: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1116: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1117: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1118: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1119: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1120: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1121: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1122: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1123: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1124: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1125: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1126: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1127: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1128: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1130: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1131: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1132: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1133: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1134: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1135: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1136: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1137: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1138: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1140: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1141: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1143: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1144: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1146: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1147: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1148: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1149: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1150: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1151: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1153: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1154: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1155: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1156: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1157: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1158: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1159: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1160: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1161: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1162: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1163: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1167: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1168: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1170: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1171: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1172: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1173: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1174: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1175: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1176: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1177: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1178: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1179: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1180: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1181: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1182: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1183: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1184: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1185: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1186: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1187: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1188: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1189: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1190: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1191: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1192: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1194: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1195: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1196: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1197: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1198: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1199: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1200: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1201: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1202: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1203: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1205: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1206: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1207: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1208: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1209: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1210: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1211: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1212: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1214: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1215: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1216: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1217: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1218: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1219: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1220: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1221: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1222: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1223: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1225: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1226: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1227: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1228: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1229: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1230: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1231: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1232: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1233: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1234: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1235: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1236: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1237: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1238: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1239: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1240: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1241: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1242: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1243: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1245: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1247: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1251: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1252: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1253: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1254: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1255: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1256: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1257: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1258: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1259: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1260: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1261: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1262: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1263: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1264: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1265: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1266: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1267: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1268: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1269: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1270: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1271: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1272: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1273: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1274: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1275: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1276: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1277: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1278: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1279: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1281: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1282: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1283: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1284: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1285: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1286: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1287: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1288: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1290: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1291: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1292: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1293: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1294: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1295: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1297: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1298: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1299: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1300: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1301: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1303: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1305: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1306: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1307: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1308: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1309: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1310: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1311: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1313: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1314: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1315: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1316: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1317: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1318: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1319: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1321: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1322: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1323: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1324: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1325: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1326: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1327: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1328: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1330: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1331: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1332: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1333: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1334: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1335: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1336: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1337: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1338: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1339: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1340: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+Record 1341: Rejected - Error on table CREDIT_CARD.
+ORA-00001: unique constraint (TXP_ADMIN.CREDIT_CARD_PK) violated
+
+
+Table CREDIT_CARD:
+  213 Rows successfully loaded.
+  1128 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  66048 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:          1341
+Total logical records rejected:      1128
+Total logical records discarded:        0
+
+Run began on Thu May 12 15:41:15 2022
+Run ended on Thu May 12 15:41:20 2022
+
+Elapsed time was:     00:00:05.16
+CPU time was:         00:00:00.14
