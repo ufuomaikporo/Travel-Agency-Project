@@ -1,0 +1,3 @@
+USERID=txp_admin/oracle@travelxp
+CONTROL=C:\TXPDB\C_Drive\scripts\Loading_tables\destination\load_dest_data.ctl
+LOG=C:\TXPDB\C_Drive\scripts\Loading_tables\destination\load_dest_data.log
