@@ -1,0 +1,8 @@
+﻿Fee Code,Description,Fee amount
+RF,Refund,25
+BK,Booking Charge,25
+CH,Change,15
+RS,Research,50
+GR,Group Booking,100
+NSF,Insufficient Funds,25
+NC,No Charge,0
