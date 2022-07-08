@@ -1,0 +1,1955 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Thu May 12 15:48:32 2022
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   C:\TXPDB\C_Drive\scripts\Loading_tables\trip_adhoc\load_trip_adhoc.ctl
+Data File:      C:\TXPDB\C_Drive\scripts\Loading_tables\Sales_data\sales_data.csv
+  Bad File:     C:\TXPDB\C_Drive\scripts\Loading_tables\trip_adhoc\load_trip_adhoc.bad
+  Discard File: C:\TXPDB\C_Drive\scripts\Loading_tables\trip_adhoc\load_trip_adhoc.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 2000
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table TRIP_ADHOC, loaded from every logical record.
+Insert option in effect for this table: REPLACE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SALE_DATE                           FIRST     *   ,  O(") DATE MM/DD/YYYY      
+CLIENT_ID                            NEXT     *   ,  O(") CHARACTER            
+ITINERARY                            NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+AGENT                                NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+BOOKING_NO                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PRODUCT_ID                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+SUPPLIER_ID                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+OFFICE                               NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PROD_START                           NEXT     *   ,  O(") DATE MM/DD/YYYY      
+PROD_END                             NEXT     *   ,  O(") DATE MM/DD/YYYY      
+CLASS_CODE                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+NUM_OF_TRAVELLERS                    NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PROD_NAME                            NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+DESCRIPTION                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+DESTINATION                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+DEST_CODE                            NEXT     *   ,  O(") CHARACTER            
+CARD_TYPE                            NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+CARD_EXPIRY                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+CARD_NO                              NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PAYMENT_DATE                         NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PAYMENT_DESC                         NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+BASE_PRICE                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+TOTAL_PRICE                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PAYMENT_AMT                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+FEE_CODE                             NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+FEE_AMT                              NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+COMM_AMT                             NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+TRIP_START                           NEXT     *   ,  O(") DATE MM/DD/YYYY      
+TRIP_END                             NEXT     *   ,  O(") DATE MM/DD/YYYY      
+ITINERARY_NO                                              SEQUENCE (130, 1)
+
+Record 2: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 3: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 5: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 8: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 9: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 11: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 14: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 15: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 17: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 18: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 20: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 26: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 27: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 28: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 29: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 30: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 31: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 32: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 33: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 34: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 35: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 36: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 37: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 38: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 46: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 47: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 49: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 50: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 53: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 58: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 62: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 65: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 68: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 72: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 76: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 77: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 80: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 81: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 85: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 87: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 91: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 94: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 95: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 99: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 101: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 106: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 108: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 112: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 114: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 115: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 117: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 119: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 120: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 123: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 124: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 126: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 128: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 130: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 131: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 132: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 134: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 139: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 140: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 141: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 142: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 144: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 149: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 151: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 152: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 156: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 158: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 159: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 160: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 164: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 170: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 171: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 172: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 173: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 174: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 185: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 186: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 187: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 190: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 191: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 192: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 193: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 197: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 199: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 202: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 204: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 205: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 207: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 211: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 214: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 218: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 219: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 222: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 223: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 231: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 232: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 233: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 237: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 242: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 244: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 245: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 251: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 252: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 256: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 258: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 260: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 263: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 264: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 265: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 267: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 271: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 272: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 273: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 274: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 283: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 286: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 288: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 289: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 292: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 293: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 295: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 297: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 298: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 300: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 303: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 310: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 311: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 313: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 317: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 319: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 320: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 325: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 328: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 329: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 331: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 332: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 333: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 334: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 335: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 336: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 337: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 344: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 345: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 349: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 352: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 353: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 354: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 359: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 363: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 364: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 365: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 376: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 377: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 382: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 383: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 384: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 386: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 387: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 396: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 397: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 400: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 402: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 403: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 408: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 412: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 413: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 414: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 421: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 422: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 423: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 424: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 425: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 429: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 434: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 437: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 441: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 445: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 447: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 448: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 450: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 452: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 453: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 455: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 457: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 458: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 460: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 461: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 463: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 467: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 468: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 474: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 475: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 476: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 477: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 478: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 479: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 480: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 481: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 482: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 489: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 490: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 491: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 492: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 493: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 497: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 498: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 500: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 501: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 504: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 508: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 509: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 513: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 519: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 520: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 523: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 524: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 531: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 532: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 533: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 535: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 536: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 541: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 542: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 543: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 545: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 552: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 553: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 554: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 555: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 556: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 562: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 563: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 565: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 569: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 570: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 571: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 572: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 573: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 574: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 579: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 580: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 583: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 584: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 586: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 588: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 591: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 593: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 595: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 596: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 601: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 602: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 604: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 605: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 607: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 612: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 613: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 616: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 618: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 619: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 629: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 633: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 636: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 637: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 638: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 639: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 640: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 641: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 647: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 648: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 649: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 650: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 651: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 652: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 661: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 663: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 664: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 666: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 668: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 670: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 679: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 680: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 681: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 684: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 685: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 686: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 691: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 692: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 693: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 694: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 695: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 696: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 698: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 699: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 706: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 707: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 710: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 711: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 713: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 720: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 721: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 725: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 728: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 731: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 732: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 734: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 741: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 743: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 748: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 749: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 750: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 753: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 754: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 757: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 759: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 760: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 762: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 765: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 769: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 770: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 771: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 777: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 780: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 781: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 782: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 783: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 784: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 786: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 787: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 792: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 793: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 795: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 797: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 799: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 800: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 801: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 803: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 806: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 811: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 813: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 815: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 816: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 818: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 825: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 826: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 827: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 828: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 831: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 833: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 834: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 836: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 838: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 841: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 843: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 844: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 847: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 849: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 850: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 852: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 853: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 857: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 858: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 859: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 861: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 865: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 866: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 868: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 869: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 871: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 873: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 875: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 876: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 878: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 879: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 882: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 883: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 885: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 887: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 888: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 890: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 891: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 895: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 896: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 897: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 898: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 902: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 903: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 904: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 905: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 906: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 913: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 915: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 916: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 920: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 924: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 925: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 926: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 928: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 929: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 934: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 936: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 937: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 940: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 941: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 946: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 947: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 948: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 949: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 950: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 951: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 958: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 960: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 961: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 962: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 963: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 964: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 969: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 970: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 971: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 978: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 980: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 984: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 985: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 986: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 988: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 989: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 991: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 992: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 995: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 996: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 997: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1000: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1002: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1003: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1004: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1005: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1006: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1007: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1014: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1015: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1017: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1019: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1020: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1022: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1023: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1025: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1026: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1027: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1029: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1030: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1031: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1032: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1033: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1034: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1036: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1037: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1038: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1039: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1040: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1044: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1045: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1046: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1047: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1054: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1055: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1058: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1060: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1061: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1065: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1066: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1067: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1070: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1071: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1074: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1075: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1076: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1077: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1078: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1079: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1084: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1086: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1087: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1088: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1094: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1095: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1097: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1098: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1099: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1100: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1102: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1104: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1105: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1108: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1114: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1116: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1117: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1124: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1126: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1127: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1129: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1131: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1132: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1133: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1136: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1144: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1146: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1147: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1151: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1153: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1154: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1158: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1162: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1163: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1166: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1168: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1172: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1174: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1175: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1176: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1177: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1178: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1180: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1181: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1182: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1183: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1184: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1186: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1187: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1188: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1192: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1195: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1196: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1197: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1198: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1199: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1200: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1205: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1206: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1208: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1209: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1212: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1215: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1216: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1217: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1219: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1220: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1222: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1223: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1225: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1226: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1229: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1231: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1232: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1233: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1234: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1235: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1236: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1237: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1239: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1242: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1243: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1246: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1247: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1252: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1253: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1254: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1255: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1256: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1257: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1258: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1263: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1264: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1265: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1266: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1267: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1268: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1269: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1271: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1272: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1276: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1277: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1279: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1280: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1281: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1282: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1283: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1285: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1291: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1292: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1293: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1294: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1298: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1299: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1301: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1303: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1305: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1306: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1308: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1309: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1311: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1313: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1314: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1315: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1317: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1320: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1321: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1322: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1323: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1328: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1331: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1332: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1334: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1336: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1337: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1339: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+Record 1340: Rejected - Error on table TRIP_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.TRIP_ADHOC_PK) violated
+
+
+Table TRIP_ADHOC:
+  722 Rows successfully loaded.
+  619 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 117056 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:          1341
+Total logical records rejected:       619
+Total logical records discarded:        0
+
+Run began on Thu May 12 15:48:32 2022
+Run ended on Thu May 12 15:48:37 2022
+
+Elapsed time was:     00:00:05.03
+CPU time was:         00:00:00.07
