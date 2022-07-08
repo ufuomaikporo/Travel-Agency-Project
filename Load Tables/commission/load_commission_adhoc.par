@@ -1,0 +1,3 @@
+USERID=txp_admin/oracle@travelxp
+CONTROL=C:\TXPDB\C_Drive\scripts\Loading_tables\commission\load_commission_adhoc.ctl
+LOG=C:\TXPDB\C_Drive\scripts\Loading_tables\commission\load_commission_adhoc.log
