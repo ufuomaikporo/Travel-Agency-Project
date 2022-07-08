@@ -1,0 +1,719 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Thu May 12 15:49:08 2022
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   C:\TXPDB\C_Drive\scripts\Loading_tables\booking_adhoc\load_booking_adhoc.ctl
+Data File:      C:\TXPDB\C_Drive\scripts\Loading_tables\Sales_data\sales_data.csv
+  Bad File:     C:\TXPDB\C_Drive\scripts\Loading_tables\booking_adhoc\booking_data.bad
+  Discard File: C:\TXPDB\C_Drive\scripts\Loading_tables\booking_adhoc\booking_data.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 2000
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table BOOKING_ADHOC, loaded from every logical record.
+Insert option in effect for this table: REPLACE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SALE_DATE                           FIRST     *   ,  O(") DATE MM/DD/YYYY      
+CLIENT_ID                            NEXT     *   ,  O(") CHARACTER            
+ITINERARY_NO                         NEXT     *   ,  O(") CHARACTER            
+AGENT                                NEXT     *   ,  O(") CHARACTER            
+BOOKING_NUM                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PRODUCT_ID                           NEXT     *   ,  O(") CHARACTER            
+SUPPLIER_ID                          NEXT     *   ,  O(") CHARACTER            
+OFFICE                               NEXT     *   ,  O(") CHARACTER            
+PROD_START                           NEXT     *   ,  O(") DATE MM/DD/YYYY      
+PROD_END                             NEXT     *   ,  O(") DATE MM/DD/YYYY      
+CLASS_CODE                           NEXT     *   ,  O(") CHARACTER            
+NUM_OF_TRAVELLERS                    NEXT     *   ,  O(") CHARACTER            
+PROD_NAME                            NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+DESCRIPTION                          NEXT     *   ,  O(") CHARACTER            
+DESTINATION                          NEXT     *   ,  O(") CHARACTER            
+CONTINENT                            NEXT     *   ,  O(") CHARACTER            
+CARD_TYPE                            NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+CARD_EXPIRY                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+CARD_NO                              NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PAYMENT_DATE                         NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PAYMENT_DESC                         NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+BASE_PRICE                           NEXT     *   ,  O(") CHARACTER            
+TOTAL_PRICE                          NEXT     *   ,  O(") CHARACTER            
+PAYMENT_AMT                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+FEE_CODE                             NEXT     *   ,  O(") CHARACTER            
+FEE_AMT                              NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+COMM_AMT                             NEXT     *   ,  O(") CHARACTER            
+TRIP_START                           NEXT     *   ,  O(") DATE MM/DD/YYYY      
+TRIP_END                             NEXT     *   ,  O(") DATE MM/DD/YYYY      
+BOOKING_NO                                                SEQUENCE (100, 1)
+
+value used for ROWS parameter changed from 64 to 49
+Record 15: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 26: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 28: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 30: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 32: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 34: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 36: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 38: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 50: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 62: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 65: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 68: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 72: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 76: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 87: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 101: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 112: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 117: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 123: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 128: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 130: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 132: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 134: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 141: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 149: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 164: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 171: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 173: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 174: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 185: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 187: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 191: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 193: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 202: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 207: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 219: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 231: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 232: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 242: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 260: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 263: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 265: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 272: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 273: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 289: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 293: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 295: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 297: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 300: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 303: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 310: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 317: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 328: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 331: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 333: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 335: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 337: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 345: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 352: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 363: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 377: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 387: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 397: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 400: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 403: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 408: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 413: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 424: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 437: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 445: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 447: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 450: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 453: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 455: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 460: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 467: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 474: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 476: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 478: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 480: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 482: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 489: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 491: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 493: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 498: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 501: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 504: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 532: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 555: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 556: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 570: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 572: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 574: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 579: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 584: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 586: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 595: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 605: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 612: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 618: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 637: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 639: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 641: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 650: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 652: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 664: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 679: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 684: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 686: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 696: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 706: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 710: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 713: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 750: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 754: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 757: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 762: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 769: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 787: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 800: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 813: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 815: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 818: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 826: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 828: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 850: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 852: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 858: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 861: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 866: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 871: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 879: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 883: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 895: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 896: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 898: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 916: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 924: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 934: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 946: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 961: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 964: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 997: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1002: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1003: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1015: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1017: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1025: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1029: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1034: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1036: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1038: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1040: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1055: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1058: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1061: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1071: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1075: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1077: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1079: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1086: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1097: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1102: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1105: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1108: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1126: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1132: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1144: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1146: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1151: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1158: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1175: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1176: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1181: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1182: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1183: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1184: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1186: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1187: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1188: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1192: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1196: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1198: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1200: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1206: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1217: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1219: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1223: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1233: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1242: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1243: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1252: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1254: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1256: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1258: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1266: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1269: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1271: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1277: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1282: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1285: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1292: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1294: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1299: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1301: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1306: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1309: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1311: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1313: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1321: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+Record 1323: Rejected - Error on table BOOKING_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.BOOKING_ADHOC_PK) violated
+
+
+Table BOOKING_ADHOC:
+  1130 Rows successfully loaded.
+  211 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 253967 bytes(49 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:          1341
+Total logical records rejected:       211
+Total logical records discarded:        0
+
+Run began on Thu May 12 15:49:08 2022
+Run ended on Thu May 12 15:49:13 2022
+
+Elapsed time was:     00:00:04.91
+CPU time was:         00:00:00.03
