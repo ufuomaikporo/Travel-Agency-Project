@@ -1,0 +1,3 @@
+USERID=txp_admin/oracle@travelxp
+CONTROL=C:\TXPDB\C_Drive\scripts\Loading_tables\class\load_class_data.ctl
+LOG=C:\TXPDB\C_Drive\scripts\Loading_tables\class\load_class_data.log
