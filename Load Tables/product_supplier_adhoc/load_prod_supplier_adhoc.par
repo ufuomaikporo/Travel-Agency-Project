@@ -1,0 +1,3 @@
+USERID=txp_admin/oracle@travelxp
+CONTROL=C:\TXPDB\C_Drive\scripts\Loading_tables\product_supplier_adhoc\load_prod_supplier_adhoc.ctl
+LOG=C:\TXPDB\C_Drive\scripts\Loading_tables\product_supplier_adhoc\load_prod_supplier_adhoc.log
