@@ -1,0 +1,98 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Thu May 12 15:41:31 2022
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   C:\TXPDB\C_Drive\scripts\Loading_tables\payment_adhoc\load_payment_adhoc.ctl
+Data File:      C:\TXPDB\C_Drive\scripts\Loading_tables\Sales_data\sales_data.csv
+  Bad File:     C:\TXPDB\C_Drive\scripts\Loading_tables\payment_adhoc\payment_data.bad
+  Discard File: C:\TXPDB\C_Drive\scripts\Loading_tables\payment_adhoc\payment_data.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 2000
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table PAYMENT_ADHOC, loaded from every logical record.
+Insert option in effect for this table: REPLACE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SALE_DATE                           FIRST     *   ,  O(") DATE MM/DD/YYYY      
+CLIENT_ID                            NEXT     *   ,  O(") CHARACTER            
+ITINERARY_NO                         NEXT     *   ,  O(") CHARACTER            
+AGENT                                NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+BOOKING_NUM                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PRODUCT_ID                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+SUPPLIER_ID                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+OFFICE                               NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PROD_START                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PROD_END                             NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+CLASS_CODE                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+NUM_OF_TRAVELLERS                    NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PROD_NAME                            NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+DESCRIPTION                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+DESTINATION                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+CONTINENT                            NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+CARD_TYPE                            NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+CARD_EXPIRY                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+CARD_NO                              NEXT     *   ,  O(") CHARACTER            
+PAYMENT_DATE                         NEXT     *   ,  O(") DATE MM/DD/YYYY      
+PAYMENT_DESC                         NEXT     *   ,  O(") CHARACTER            
+BASE_PRICE                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+TOTAL_PRICE                          NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PAYMENT_AMT                          NEXT     *   ,  O(") CHARACTER            
+FEE_CODE                             NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+FEE_AMT                              NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+COMM_AMT                             NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+START_DATE                           NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+END_DATE                             NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+PAYMENT_NO                                                SEQUENCE (30, 1)
+
+
+Table PAYMENT_ADHOC:
+  1341 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 117056 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:          1341
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Thu May 12 15:41:31 2022
+Run ended on Thu May 12 15:41:36 2022
+
+Elapsed time was:     00:00:04.67
+CPU time was:         00:00:00.08

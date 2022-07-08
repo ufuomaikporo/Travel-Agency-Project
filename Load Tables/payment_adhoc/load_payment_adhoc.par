@@ -1,0 +1,3 @@
+USERID=txp_admin/oracle@travelxp
+CONTROL=C:\TXPDB\C_Drive\scripts\Loading_tables\payment_adhoc\load_payment_adhoc.ctl
+LOG=C:\TXPDB\C_Drive\scripts\Loading_tables\payment_adhoc\load_payment_adhoc.log
