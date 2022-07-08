@@ -1,0 +1,93 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Thu May 12 15:48:24 2022
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   C:\TXPDB\C_Drive\scripts\Loading_tables\supplier_adhoc\load_supplier_adhoc.ctl
+Data File:      C:\TXPDB\C_Drive\scripts\Loading_tables\supplier_adhoc\supplier_data.csv
+  Bad File:     C:\TXPDB\C_Drive\scripts\Loading_tables\supplier_adhoc\load_supplier_adhoc.bad
+  Discard File: C:\TXPDB\C_Drive\scripts\Loading_tables\supplier_adhoc\load_supplier_adhoc.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 2000
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table SUPPLIER_ADHOC, loaded from every logical record.
+Insert option in effect for this table: REPLACE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SUPPLIER_ID                         FIRST     *   ,  O(") CHARACTER            
+PRODUCT_ID                           NEXT     *   ,  O(") CHARACTER            
+OFFICE                               NEXT     *   ,  O(") CHARACTER            
+PROD_DESC                            NEXT     *   ,  O(") CHARACTER            
+  (FILLER FIELD)
+CONTACT_NAME                         NEXT     *   ,  O(") CHARACTER            
+COMPANY                              NEXT     *   ,  O(") CHARACTER            
+ADDRESS_LINE1                        NEXT     *   ,  O(") CHARACTER            
+ADDRESS_LINE2                        NEXT     *   ,  O(") CHARACTER            
+CITY                                 NEXT     *   ,  O(") CHARACTER            
+PROVINCE                             NEXT     *   ,  O(") CHARACTER            
+ZIP_CODE                             NEXT     *   ,  O(") CHARACTER            
+COUNTRY                              NEXT     *   ,  O(") CHARACTER            
+PHONE                                NEXT     *   ,  O(") CHARACTER            
+FAX_NO                               NEXT     *   ,  O(") CHARACTER            
+EMAIL                                NEXT     *   ,  O(") CHARACTER            
+WEBSITE                              NEXT     *   ,  O(") CHARACTER            
+
+Record 29: Rejected - Error on table SUPPLIER_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.SUPPLIER_ADHOC_PK) violated
+
+Record 31: Rejected - Error on table SUPPLIER_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.SUPPLIER_ADHOC_PK) violated
+
+Record 248: Rejected - Error on table SUPPLIER_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.SUPPLIER_ADHOC_PK) violated
+
+Record 268: Rejected - Error on table SUPPLIER_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.SUPPLIER_ADHOC_PK) violated
+
+Record 269: Rejected - Error on table SUPPLIER_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.SUPPLIER_ADHOC_PK) violated
+
+Record 634: Rejected - Error on table SUPPLIER_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.SUPPLIER_ADHOC_PK) violated
+
+Record 636: Rejected - Error on table SUPPLIER_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.SUPPLIER_ADHOC_PK) violated
+
+Record 656: Rejected - Error on table SUPPLIER_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.SUPPLIER_ADHOC_PK) violated
+
+Record 765: Rejected - Error on table SUPPLIER_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.SUPPLIER_ADHOC_PK) violated
+
+Record 831: Rejected - Error on table SUPPLIER_ADHOC.
+ORA-00001: unique constraint (TXP_ADMIN.SUPPLIER_ADHOC_PK) violated
+
+
+Table SUPPLIER_ADHOC:
+  1183 Rows successfully loaded.
+  10 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 247680 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:          1193
+Total logical records rejected:        10
+Total logical records discarded:        0
+
+Run began on Thu May 12 15:48:24 2022
+Run ended on Thu May 12 15:48:29 2022
+
+Elapsed time was:     00:00:04.75
+CPU time was:         00:00:00.05
